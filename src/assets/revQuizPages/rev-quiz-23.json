@@ -1,0 +1,147 @@
+[
+    {
+        "image": null,
+        "quiz": "Durante la marcia sulle autostrade e strade extraurbane principali \u00e8 obbligatorio l'uso dei proiettori anabbaglianti anche di giorno",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia sulle autostrade e strade extraurbane principali l'uso dei proiettori anabbaglianti \u00e8 facoltativo in condizioni di perfetta visibilit\u00e0",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito circolare sulle corsie per la sosta di emergenza delle autostrade e strade extraurbane principali per arrestarsi per avaria del veicolo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In caso di ingorgo su strade extraurbane principali o autostrade, se la corsia di emergenza manca o non \u00e8 sufficiente alla circolazione dei veicoli di polizia o di soccorso, il conducente del veicolo che occupa la prima corsia di destra deve disporsi il pi\u00f9 vicino possibile alla striscia di sinistra",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Nelle aree di servizio e di parcheggio delle autostrade la durata massima per la sosta di un veicolo \u00e8 di tre ore",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sono ammesse a circolare su autostrade e strade extraurbane principali le macchine agricole, non trainanti un rimorchio",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sono ammessi a circolare su autostrade e strade extraurbane principali i ciclomotori che sviluppano una velocit\u00e0 di almeno 50 km/h",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sono ammessi a circolare su autostrade e strade extraurbane principali i veicoli non muniti di pneumatici, se assicurati",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle autostrade e strade extraurbane principali \u00e8 vietata la circolazione di macchine agricole",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle autostrade e strade extraurbane principali \u00e8 vietata la circolazione di veicoli con carico disordinato e non solidamente assicurato o sporgente oltre i limiti consentiti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle autostrade e strade extraurbane principali \u00e8 vietata la circolazione di veicoli le cui condizioni di uso, equipaggiamento e gommatura possono costituire pericolo per la circolazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle autostrade e strade extraurbane principali il conducente pu\u00f2 utilizzare la corsia di emergenza se il traffico \u00e8 intenso",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle autostrade e sulle strade extraurbane principali \u00e8 consentita la marcia per file parallele anche in assenza di traffico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle autostrade e sulle strade extraurbane principali il conducente che percorre la corsia di accelerazione deve dare la precedenza ai veicoli in circolazione sulle corsie di marcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle autostrade e sulle strade extraurbane principali il conducente deve segnalare tempestivamente il cambiamento di corsia servendosi degli indicatori di direzione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle autostrade e sulle strade extraurbane principali se il traffico non \u00e8 intenso il conducente non ha l'obbligo di servirsi degli indicatori di direzione per segnalare il cambiamento di corsia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli delle autostrade \u00e8 consentito sostare solo in situazioni di emergenza dovute a malessere del conducente o dei passeggeri oppure ad inefficienza del veicolo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli delle autostrade \u00e8 consentito, nel caso di malessere di un passeggero, fermarsi sulla corsia per la sosta di emergenza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli delle autostrade \u00e8 vietato sostare o fermarsi, in caso di malessere dei passeggeri",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli delle autostrade la sosta di emergenza non deve superare il tempo strettamente necessario e non deve protrarsi comunque oltre tre ore",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli delle autostrade la sosta di emergenza non deve superare il tempo strettamente necessario e pu\u00f2 protrarsi fino a 24 ore",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli di autostrade e strade extraurbane principali \u00e8 vietato effettuare la retromarcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli di autostrade e strade extraurbane principali \u00e8 vietato invertire il senso di marcia e attraversare lo spartitraffico, anche all'altezza dei varchi",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli di autostrade e strade extraurbane principali \u00e8 vietato percorrere la carreggiata o parte di essa nel senso di marcia opposto a quello consentito",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli di autostrade e strade extraurbane principali il conducente pu\u00f2 invertire il senso di marcia adottando tutti gli accorgimenti necessari",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli di autostrade e strade extraurbane principali il conducente pu\u00f2 invertire il senso di marcia in casi di particolare emergenza",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe e sugli svincoli di autostrade e strade extraurbane principali il conducente pu\u00f2 procedere in senso contrario al normale flusso del traffico, per brevi tratti",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle carreggiate, sulle rampe, sugli svincoli, sulle aree di servizio o di parcheggio e in ogni altra pertinenza autostradale \u00e8 vietato richiedere o concedere passaggi",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle corsie per le soste di emergenza delle autostrade \u00e8 vietato effettuare la retromarcia",
+        "ans": true
+    }
+]

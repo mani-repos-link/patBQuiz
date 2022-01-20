@@ -1,0 +1,212 @@
+[
+    {
+        "image": null,
+        "quiz": "Chi guida in stato di ebbrezza alcolica rischia l'arresto",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Chi guida in stato di ebbrezza alcoolica ha tempi di reazione pi\u00f9 rapidi",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Chi guida un veicolo senza motore, con una concentrazione di alcool nel sangue superiore al limite stabilito, non \u00e8 soggetto ad alcuna sanzione",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto da mezz'ora dopo il tramonto del sole a mezz'ora prima del suo sorgere",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto solo quando la miopia supera 6 diottrie",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto soltanto sulle autostrade e sulle strade extraurbane principali",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto quando \u00e8 indicato sulla patente",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente \u00e8 stato inserito il codice armonizzato \"01\"",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente figura, per esteso o sotto forma di codice, tale obbligo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nella patente si trova indicato tale obbligo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto soltanto in caso di scarsa visibilit\u00e0",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' necessario che trascorrano alcune ore affinch\u00e9 un conducente che abbia assunto una quantit\u00e0 eccessiva di bevande alcoliche recuperi l'idoneit\u00e0 alla guida",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' opportuno, per il conducente che accusa segni di stanchezza, avvicinarsi il pi\u00f9 possibile al veicolo che lo precede nella marcia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' opportuno, per il conducente che accusa segni di stanchezza, raggiungere la pi\u00f9 vicina piazzola di sosta e riposare",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' sconsigliabile guidare quando si ha uno stato emotivo alterato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'alcool pu\u00f2 causare uno stato di euforia, con conseguente sottovalutazione del pericolo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di alcool facilita la guida, perch\u00e9 fa aumentare la capacit\u00e0 di concentrazione",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di alcool facilita la guida, perch\u00e9 rende pi\u00f9 vigili e attenti",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di alcool migliora la vista",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di alcool pu\u00f2 far diminuire il livello di attenzione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di alcool rende la guida pi\u00f9 sicura, pi\u00f9 allegra e meno noiosa",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di alcool rende meno sicura la guida, perch\u00e9 pu\u00f2 modificare pericolosamente la capacit\u00e0 di concentrazione e attenzione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di alcool rende meno sicura la guida, perch\u00e9 pu\u00f2 provocare sonnolenza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di alcool rende meno sicura la guida, perch\u00e9 pu\u00f2 rallentare i riflessi",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di alcool rende meno sicura la guida, poich\u00e9 pu\u00f2 provocare eccitazione e imprudenza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di alcool rende pi\u00f9 sicura la guida, perch\u00e9 annulla la stanchezza",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di eroina o di cocaina pu\u00f2 compromettere la facolt\u00e0 di guida",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di hashish o di marijuana non compromette la facolt\u00e0 di guida",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di hashish o di marijuana pu\u00f2 compromettere la facolt\u00e0 di guida",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'assunzione di LSD o l'anfetamina non compromette la facolt\u00e0 di guida",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'idoneit\u00e0 alla guida pu\u00f2 essere compromessa se si fa uso di alcuni farmaci sedativi",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'idoneit\u00e0 alla guida pu\u00f2 essere compromessa se si fa uso di allucinogeni (LSD, ecstasy, ecc.)",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'idoneit\u00e0 alla guida pu\u00f2 essere compromessa se si fa uso di bevande alcoliche",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'idoneit\u00e0 alla guida pu\u00f2 essere compromessa se si fa uso di bevande gassate",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'idoneit\u00e0 alla guida pu\u00f2 essere compromessa se si fa uso di caff\u00e8 amaro",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'idoneit\u00e0 alla guida pu\u00f2 essere compromessa se si fa uso di farmaci antidepressivi",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'idoneit\u00e0 alla guida pu\u00f2 essere compromessa se si fa uso di integratori alimentari",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'idoneit\u00e0 alla guida pu\u00f2 essere compromessa se si fa uso di integratori di sali minerali",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Nei farmaci sedativi sono presenti alcune sostanze che possono compromettere la facolt\u00e0 di guida",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Un conducente che ha assunto una quantit\u00e0 eccessiva di bevande alcoliche non pu\u00f2 recuperare velocemente l'idoneit\u00e0 alla guida, specie se ha assunto anche dei farmaci",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Un conducente che ha assunto una quantit\u00e0 eccessiva di bevande alcoliche pu\u00f2 recuperare velocemente l'idoneit\u00e0 alla guida se assume caff\u00e8 amaro",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Un conducente che ha assunto una quantit\u00e0 eccessiva di bevande alcoliche pu\u00f2 recuperare velocemente l'idoneit\u00e0 alla guida se assume cibi piuttosto salati",
+        "ans": false
+    }
+]

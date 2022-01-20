@@ -1,0 +1,372 @@
+[
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 in caso di nebbia o foschia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 in prossimit\u00e0 delle intersezioni",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 in prossimit\u00e0 delle scuole",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 in prossimit\u00e0 di luoghi frequentati dai bambini",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 nei passaggi stretti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 nei tratti di strada a visibilit\u00e0 limitata",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 nei tratti di strada coperti da neve",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 nell'attraversamento di abitati",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 nelle curve",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 nelle forti discese",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 nelle ore diurne ma non in quelle notturne",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 nelle ore notturne",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio moderare la velocit\u00e0 sulle strade extraurbane secondarie, ma non in quelle principali",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi all'uscita dei centri abitati",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi in corrispondenza dei passi carrabili",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi in corrispondenza di qualunque segnale stradale",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi in prossimit\u00e0 degli attraversamenti pedonali",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi in prossimit\u00e0 degli autovelox",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi in prossimit\u00e0 delle fermate degli autobus",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi negli incroci, per far passare i veicoli cui spetti la precedenza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi ogni volta che si percorre un cavalcavia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi quando gli animali che si trovano sulla strada danno segni di spavento",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi quando i pedoni, che sono sul percorso, danno segni d'incertezza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi quando i pedoni, che sono sul percorso, tardano a scansarsi",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi quando riesce malagevole l'incrocio con altri veicoli",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 e all'occorrenza fermarsi quando si rimane abbagliati",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 fuori dai centri abitati",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 in presenza di qualunque segnale stradale",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 in prossimit\u00e0 degli autovelox",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 nelle strade in salita",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 nelle strade provinciali",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 solo in presenza degli agenti del traffico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 solo se l'autovettura \u00e8 scarica",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio ridurre la velocit\u00e0 su strada a senso unico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve poter arrestare il veicolo nel campo di visibilit\u00e0 e in condizioni di sicurezza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 in modo da non costituire disordine per la circolazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 in modo da non costituire pericolo per le persone",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 in relazione al carico del veicolo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 in relazione alla distanza del luogo da raggiungere",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 in relazione alla marca dei pneumatici",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 in relazione alla propria abilit\u00e0 alla guida",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 in relazione alle condizioni atmosferiche",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 in relazione alle condizioni del traffico",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 in relazione alle condizioni della strada",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 in relazione allo stato del veicolo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve regolare la velocit\u00e0 tenendo conto esclusivamente dei limiti massimi",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente deve sempre essere in grado di arrestare il veicolo in condizioni di sicurezza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 dei veicoli deve essere regolata in modo da non causare intralcio alla circolazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 deve essere diminuita in caso di forte vento laterale",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 deve essere in ogni caso moderata fuori dai centri abitati",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 deve essere moderata nei tratti di strada a visuale non libera",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 deve essere particolarmente moderata in prossimit\u00e0 di un incrocio",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 deve essere particolarmente moderata nei tratti di strada in cui manca la visibilit\u00e0 (curve, dossi)",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 deve essere particolarmente moderata nelle strettoie",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 deve essere particolarmente moderata quando risulta difficoltoso l'incrocio con altri veicoli",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 deve essere particolarmente moderata quando, in mancanza di marciapiedi, i pedoni occupano la carreggiata",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 deve essere particolarmente moderata subito dopo il tramonto del sole",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 deve essere particolarmente moderata subito dopo un incrocio",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La velocit\u00e0 va diminuita in caso di abbagliamento dovuto al sole",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Salvo diversa segnalazione, il limite massimo di velocit\u00e0 nei centri abitati \u00e8 di 60 km/h, valido fino ad un chilometro dopo l'uscita del paese",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Salvo diversa segnalazione, il limite massimo di velocit\u00e0 sulle strade extraurbane principali \u00e8 di 100 km/h",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Si deve diminuire la velocit\u00e0 ogni qualvolta si incontra un segnale stradale di indicazione",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Si deve diminuire la velocit\u00e0 quando si \u00e8 seguiti da un autobus di linea",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Si deve regolare la velocit\u00e0 in base alla fretta del conducente",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Si deve tenere una velocit\u00e0 adeguata alle proprie condizioni psicofisiche",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Si deve tenere una velocit\u00e0 adeguata solo alle nostre condizioni di salute",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Si deve tenere una velocit\u00e0 che consenta di intervenire con sicurezza in caso di imprevisti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Si deve tenere una velocit\u00e0 che non costituisca pericolo per la sicurezza della circolazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Si deve tenere una velocit\u00e0 regolata in funzione del tempo si ha a disposizione per terminare il viaggio",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Si deve, in particolare, regolare la velocit\u00e0 in presenza di lavori in corso",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Si deve, in particolare, regolare la velocit\u00e0 se si incontra sulla strada il segnale di veicolo fermo (triangolo mobile di pericolo)",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Si \u00e8 tenuti a regolare la velocit\u00e0 in funzione del tipo di alimentazione del motore",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Si \u00e8 tenuti a regolare la velocit\u00e0 in funzione del tipo di cambio di velocit\u00e0",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle autostrade e sulle strade extraurbane principali, in caso di nebbia fitta, con visibilit\u00e0 inferiore a 100 m, possono essere imposti limiti massimi temporanei di velocit\u00e0, non superiori a 50 km/h",
+        "ans": true
+    }
+]

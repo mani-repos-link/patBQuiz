@@ -1,0 +1,402 @@
+[
+    {
+        "image": null,
+        "quiz": "Dopo aver effettuato una manovra di sorpasso il conducente del veicolo deve riportarsi a destra appena possibile senza creare pericolo o intralcio",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Dopo il sorpasso bisogna rientrare immediatamente a destra, rallentando",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Dopo il sorpasso il veicolo pu\u00f2 immediatamente spostarsi a destra se taglia la strada a quello sorpassato",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Durante un sorpasso in autostrada, l'insufficiente distanza di sicurezza pu\u00f2 essere causa di incidente",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante un sorpasso in autostrada, mantenersi troppo a lungo sulla corsia di sorpasso pu\u00f2 essere motivo di intralcio",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito il sorpasso a destra dei motocicli se vi \u00e8 spazio sufficiente",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito il sorpasso di veicoli fermi ai passaggi a livello senza barriere se il treno \u00e8 distante",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito il sorpasso sulle corsie d'accelerazione purch\u00e9 la manovra venga effettuata con attenzione",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito il sorpasso sulle intersezioni purch\u00e9 non provenga nessuno dalla destra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' sempre consentito superare un veicolo a due ruote",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato effettuare un secondo sorpasso senza prima essersi riportati a destra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato il sorpasso di un autobus fermo per la salita e la discesa dei passeggeri",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato il sorpasso di un veicolo che abbia rallentato in corrispondenza di un passaggio pedonale per consentire l'attraversamento dei pedoni",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato il sorpasso di un veicolo che ne stia superando un altro se ci\u00f2 impone di spostarsi sul lato riservato all'altro senso di marcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato il sorpasso di un veicolo che si sia arrestato in corrispondenza di un passaggio pedonale per consentire l'attraversamento di pedoni",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato il sorpasso di veicoli fermi ai passaggi a livello, se bisogna impegnare la semicarreggiata opposta",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato il sorpasso di veicoli fermi ai semafori quando, a tal fine \u00e8 necessario spostarsi sul lato riservato all'altro senso di marcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato il sorpasso nelle strade a senso unico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato il sorpasso se il veicolo da superare si \u00e8 fermato per dare precedenza ai pedoni, anche fuori dagli attraversamenti pedonali",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato il sorpasso se nevica",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato il sorpasso se si deve valicare la striscia longitudinale bianca continua semplice o doppia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato sorpassare sulle corsie di accelerazione o di decelerazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E'vietato sorpassare accodandosi ad un'ambulanza in servizio di emergenza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende effettuare il sorpasso ha l'obbligo di azionare il segnale acustico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende sorpassare deve accertarsi che il conducente che lo precede nella stessa corsia non abbia segnalato di voler compiere analoga manovra",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende sorpassare deve accertarsi che il conducente che lo segue sulla stessa carreggiata non abbia iniziato il sorpasso",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende sorpassare deve accertarsi che la manovra possa compiersi senza costituire intralcio",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende sorpassare deve accertarsi che la strada sia libera per consentire la completa esecuzione del sorpasso",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende sorpassare deve accertarsi che la visibilit\u00e0 sia tale da consentire la manovra",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende sorpassare deve accertarsi semplicemente che nessun veicolo provenga dalla direzione opposta",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende sorpassare deve assicurarsi che la potenza del motore del proprio veicolo sia maggiore di quella del veicolo da sorpassare",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende sorpassare deve tener conto di eventuali veicoli che provengono dalla direzione opposta",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende sorpassare deve unicamente accertarsi che non vi sia nessun segnale di divieto di sorpasso",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende sorpassare ha come unico obbligo quello di azionare l'indicatore di direzione (frecce)",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente del veicolo che viene sorpassato deve agevolare la manovra di sorpasso e non accelerare",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente del veicolo da sorpassare ha l'obbligo di azionare la segnalazione luminosa di pericolo(lampeggio simultaneo di tutte le frecce) per segnalare che la strada \u00e8 sgombra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente del veicolo da sorpassare ha l'obbligo di fermarsi appena possibile per far defluire il traffico se guida un veicolo molto lento",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente del veicolo da sorpassare ha l'obbligo di inserire le marce pi\u00f9 basse per facilitare il sorpasso",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente del veicolo da sorpassare ha l'obbligo di non accelerare la propria andatura",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente del veicolo da sorpassare ha l'obbligo di non gareggiare in velocit\u00e0 con il veicolo sorpassante",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente del veicolo da sorpassare ha l'obbligo di ridurre sempre la propria velocit\u00e0",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente del veicolo da sorpassare ha l'obbligo di tenersi il pi\u00f9 possibile vicino al margine destro su strade ad unica corsia per senso di marcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente del veicolo sorpassato pu\u00f2 gareggiare in velocit\u00e0 con il conducente del veicolo che lo sta sorpassando",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il sorpasso a destra \u00e8 consentito quando si percorre una strada extraurbana a senso unico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il sorpasso \u00e8 vietato in caso di scarsa visibilit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il sorpasso \u00e8 vietato in curva anche se la strada \u00e8 a due carreggiate separate",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il sorpasso \u00e8 vietato in prossimit\u00e0 dei dossi su strade a due corsie a doppio senso di marcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il sorpasso \u00e8 vietato in prossimit\u00e0 delle curve su strade a due corsie a doppio senso di marcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il sorpasso \u00e8 vietato se si \u00e8 costretti a superare la linea longitudinale tratteggiata",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il sorpasso \u00e8 vietato sulle curve e sui dossi delle strade a senso unico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il sorpasso in autostrada pu\u00f2 essere motivo di incidente, se si viaggia con le luci anabbaglianti sempre accese",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il sorpasso in autostrada pu\u00f2 essere motivo di incidente, se viene effettuato in vicinanza di una piazzola di sosta",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il sorpasso tra motocicli si pu\u00f2 effettuare sia a destra che a sinistra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In autostrada si pu\u00f2 sorpassare indifferentemente a destra e a sinistra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In caso di intenso traffico \u00e8 consentito ai motociclisti utilizzare per il sorpasso le corsie riservate",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La distanza necessaria al sorpasso aumenta in relazione alla maggiore lunghezza del veicolo da sorpassare",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La distanza necessaria al sorpasso \u00e8 maggiore se vi \u00e8 poca differenza di velocit\u00e0 tra i veicoli",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La manovra di sorpasso deve essere eseguita a destra se il conducente del veicolo da sorpassare ha segnalato l'intenzione di voler svoltare a sinistra",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La manovra di sorpasso deve essere eseguita a destra se, su strada a senso unico, il conducente del veicolo da sorpassare ha segnalato l'intenzione di voler accostare a sinistra",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La manovra di sorpasso non va effettuata se la distanza di visibilit\u00e0 risulta insufficiente per completarla in sicurezza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La manovra di sorpasso pu\u00f2 effettuarsi a sinistra soltanto se il veicolo da sorpassare sta svoltando a destra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La manovra di sorpasso pu\u00f2, di norma, effettuarsi a destra sulle autostrade",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La manovra di sorpasso si effettua anche se lo spazio visibile risulta insufficiente per completarla in sicurezza",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La pericolosit\u00e0 del sorpasso \u00e8 determinata dal rischio di collisione, in fase di rientro in corsia, con il veicolo sorpassato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La pericolosit\u00e0 del sorpasso \u00e8 determinata dal rischio di urtare altri veicoli che manifestano l'intenzione di compiere la stessa manovra",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La pericolosit\u00e0 del sorpasso \u00e8 determinata dal rischio di urto frontale con un veicolo che provenga dal senso contrario",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Lo spazio necessario per il sorpasso \u00e8 indipendente dalla lunghezza dei veicoli",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Nella fase di rientro dal sorpasso in autostrada, il conducente deve distanziarsi di almeno 100 m dal veicolo sorpassato",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Nella fase di sorpasso, il conducente \u00e8 tenuto a evitare di stringere o di tagliare la strada al veicolo sorpassato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Nella fase di sorpasso, il conducente \u00e8 tenuto a mantenere una velocit\u00e0 almeno doppia di quella del veicolo sorpassato",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Per effettuare il sorpasso bisogna considerare che un veicolo trainante un caravan non pu\u00f2 mai essere superato in una discesa a forte pendenza",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Prima di iniziare una manovra di sorpasso occorre azionare l'indicatore di direzione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Prima di rientrare nella corsia di destra dopo il sorpasso, occorre controllare la posizione del veicolo sorpassato attraverso gli specchietti retrovisori",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando si inizia il sorpasso \u00e8 consentito segnalare la manovra ai veicoli che precedono lampeggiando con i proiettori abbaglianti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se il tram o il filobus sono fermi la manovra di sorpasso pu\u00f2 effettuarsi a destra se esiste il salvagente",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, \u00e8 consigliabile ridurre la velocit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, occorre azionare l'indicatore di direzione destro, come segnale di pericolo",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, occorre spostarsi il pi\u00f9 vicino possibile al margine destro della carreggiata",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, si ha l'obbligo di mantenere la stessa velocit\u00e0",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Su carreggiate a due corsie a doppio senso di marcia in prossimit\u00e0 di un dosso, \u00e8 consentito sorpassare nella scia del veicolo che precede",
+        "ans": false
+    }
+]

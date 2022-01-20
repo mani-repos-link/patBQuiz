@@ -1,0 +1,282 @@
+[
+    {
+        "image": null,
+        "quiz": "Di notte, in caso di sosta fuori dalla carreggiata, \u00e8 obbligatorio tenere accese le luci anabbaglianti",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia fuori dai centri abitati, \u00e8 obbligatorio fare uso delle luci anabbaglianti, sia di giorno che di notte",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia nei centri abitati, \u00e8 obbligatorio tenere accese le luci anabbaglianti da mezz'ora dopo il tramonto del sole a mezz'ora prima del suo sorgere",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia nelle ore notturne, l'uso delle luci anabbaglianti \u00e8 obbligatorio anche se l'illuminazione pubblica \u00e8 sufficiente",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia, \u00e8 obbligatorio tenere accese le luci abbaglianti, a partire dal tramonto del sole fino al suo sorgere",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia, in caso di fitta nevicata, oltre alle luci anabbaglianti bisogna tenere accesa la luce posteriore per nebbia, se il veicolo ne \u00e8 dotato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia, in caso di nebbia con visibilit\u00e0 inferiore a 50 metri, bisogna usare la luce posteriore per nebbia, se il veicolo ne \u00e8 dotato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia, in caso di pioggia intensa, oltre alle luci anabbaglianti bisogna tenere accesa la luce posteriore per nebbia, se il veicolo ne \u00e8 dotato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia, in caso di scarsa visibilit\u00e0 per condizioni atmosferiche (neve, pioggia, nebbia), \u00e8 obbligatorio tenere accese le luci di posizione e quelle anabbaglianti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia, l'uso delle luci anabbaglianti non \u00e8 consentito nelle gallerie illuminate",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Durante la marcia, l'uso delle luci di posizione \u00e8 sempre consentito in alternativa a quelle anabbaglianti",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito l'uso intermittente dei proiettori di profondit\u00e0 (a luce abbagliante) per segnalare al veicolo che precede, sia di giorno che di notte, l'intenzione di sorpassare",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito l'uso intermittente dei proiettori di profondit\u00e0 (a luce abbagliante), anche all'interno dei centri abitati, per dare avvertimenti utili al fine di evitare incidenti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito l'uso intermittente dei proiettori di profondit\u00e0 (a luce abbagliante), esclusivamente nei casi di pericolo immediato",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito l'uso intermittente dei proiettori di profondit\u00e0 (a luce abbagliante), purch\u00e9 l'illuminazione esterna manchi o sia insufficiente",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito l'uso intermittente dei proiettori di profondit\u00e0 (a luce abbagliante), sia di giorno che di notte, per dare avvertimenti utili al fine di evitare incidenti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' consentito l'uso intermittente dei proiettori di profondit\u00e0 (a luce abbagliante), solo quando si trasportano feriti o ammalati gravi",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio accendere i proiettori anabbaglianti nelle gallerie stradali, solo se scarsamente illuminate",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio accendere i proiettori anabbaglianti, anche di giorno, quando si transita in galleria",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Fuori dei centri abitati, i conducenti devono spegnere i proiettori di profondit\u00e0 procedendo con quelli anabbaglianti, dopo un loro uso prolungato, per evitare di scaricare la batteria",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Fuori dei centri abitati, i conducenti devono spegnere i proiettori di profondit\u00e0 procedendo con quelli anabbaglianti, quando seguono un veicolo a breve distanza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Fuori dei centri abitati, i conducenti devono spegnere i proiettori di profondit\u00e0 procedendo con quelli anabbaglianti, quando stanno per incrociare altri veicoli",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Fuori dei centri abitati, i conducenti devono spegnere i proiettori di profondit\u00e0 procedendo con quelli anabbaglianti, quando vi sia il pericolo di abbagliare gli altri utenti della strada",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Fuori dei centri abitati, i conducenti devono spegnere i proiettori di profondit\u00e0 procedendo con quelli anabbaglianti, solo quando il veicolo che li precede a breve distanza \u00e8 un'autovettura",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'errata impostazione dell'orientamento dei proiettori pu\u00f2 ridurre la visibilit\u00e0 del conducente o abbagliare gli altri utenti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'uso degli indicatori di direzione destri \u00e8 necessario quando ci si arresta per cause di interruzione della circolazione",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'uso degli indicatori di direzione \u00e8 necessario ogni qualvolta si deve fare una manovra di svolta",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'uso degli indicatori di direzione \u00e8 necessario per segnalare che si vuole effettuare un cambio di corsia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'uso degli indicatori di direzione \u00e8 necessario per segnalare l'intenzione di effettuare una manovra di sorpasso",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'uso degli indicatori di direzione \u00e8 necessario quando si inizia una manovra di sorpasso, ma non quando la si termina rientrando nella corsia di marcia normale",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'uso degli indicatori di direzione non \u00e8 necessario se si deve parcheggiare il veicolo spostandosi verso il margine destro della carreggiata",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'uso dei proiettori a luce abbagliante \u00e8 di norma consentito in citt\u00e0, in caso di nebbia fitta",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'uso dei proiettori a luce abbagliante \u00e8 necessario nelle gallerie urbane a senso unico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'uso dei proiettori a luce abbagliante \u00e8 necessario, di giorno, se si circola su un'autostrada viaggiando controsole",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'uso dei proiettori a luce abbagliante \u00e8 necessario, fuori dei centri abitati, quando l'illuminazione pubblica \u00e8 insufficiente e non si incrociano altri veicoli",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'uso dei proiettori a luce abbagliante \u00e8 necessario, fuori dei centri abitati, quando l'illuminazione pubblica manca e non si incrociano altri veicoli",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'uso dei proiettori a luce abbagliante \u00e8 sempre ammesso quando si trasportano feriti o ammalati gravi",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'uso dei proiettori a luce abbagliante \u00e8 vietato, di norma, durante la marcia nei centri abitati",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'uso dei proiettori a luce abbagliante va sostituito con quello dei proiettori a luce anabbagliante quando si incrociano altri veicoli",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "L'uso delle luci anabbaglianti \u00e8 obbligatorio quando si sorpassa un'auto della polizia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'uso delle luci di posizione \u00e8 obbligatorio di notte durante la sosta fuori della carreggiata",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Nelle autostrade e strade extraurbane, \u00e8 obbligatorio accendere i fari anabbaglianti anche di giorno o, in alternativa, le luci di marcia diurna",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Non \u00e8 mai necessario usare gli indicatori di direzione quando si circola su strada a doppio senso ma con carreggiate separate da spartitraffico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Non si devono usare gli indicatori di direzione quando si cambia corsia mentre si circola su strada a senso unico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Non si devono usare gli indicatori di direzione se, per effettuare una fermata fuori della carreggiata, ci si sposta sul margine sinistro",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Non si devono usare gli indicatori di direzione se, per entrare in un passo carrabile, occorre svoltare a destra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Percorrendo una strada extraurbana durante una giornata assolata \u00e8 sufficiente accendere le luci di posizione",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Percorrendo una strada extraurbana, \u00e8 obbligatorio tenere accesi i proiettori abbaglianti durante le ore diurne",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Proiettori anabbaglianti male orientati possono abbagliare gli altri utenti della strada",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se si lascia il veicolo in un parcheggio autorizzato, \u00e8 obbligatorio tenere accese per tutto il tempo le luci di sosta",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Si devono usare gli indicatori di direzione destri per segnalare che si sta per frenare bruscamente",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Si devono usare gli indicatori di direzione ogni volta che si deve effettuare una manovra di svolta",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Si devono usare gli indicatori di direzione per segnalare l'intenzione di entrare sulla carreggiata autostradale, provenendo da una corsia di accelerazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Si devono usare gli indicatori di direzione per segnalare l'intenzione di spostarsi nella corsia di decelerazione di uno svincolo autostradale",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Si devono usare gli indicatori di direzione quando, partendo dal margine della carreggiata, ci si vuole immettere nella circolazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Si devono usare gli indicatori di direzione se si intende uscire dalla carreggiata per effettuare una fermata",
+        "ans": true
+    }
+]

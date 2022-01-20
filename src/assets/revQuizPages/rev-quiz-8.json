@@ -1,0 +1,32 @@
+[
+    {
+        "image": null,
+        "quiz": "Chi guida autoveicoli deve esibire, a richiesta degli agenti, il segnale mobile di pericolo (triangolo)",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Chi guida autoveicoli o motocicli deve esibire, a richiesta degli agenti, il codice fiscale",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Chi guida autoveicoli o motocicli deve esibire, a richiesta degli agenti, la carta di circolazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Chi guida autoveicoli o motocicli deve esibire, a richiesta degli agenti, la patente di guida",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Chi guida autoveicoli o motocicli deve mostrare, a richiesta degli agenti, l'attestazione di pagamento della tassa di possesso (bollo)",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Chi guida autoveicoli o motocicli deve mostrare, a richiesta degli agenti, la valigetta di pronto soccorso",
+        "ans": false
+    }
+]

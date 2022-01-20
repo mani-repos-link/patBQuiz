@@ -1,0 +1,302 @@
+[
+    {
+        "image": null,
+        "quiz": "Durante il sorpasso di un veicolo a motore a due ruote, soprattutto se ad elevata velocit\u00e0, si deve mantenere una buona distanza laterale di sicurezza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "I conducenti degli autoveicoli devono, in generale, prestare particolare attenzione ai veicoli a motore a due ruote, in quanto meno facilmente visibili",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "I conducenti degli autoveicoli, nell'aprire le portiere, devono prestare particolare attenzione ai veicoli a motore a due ruote, in quanto meno visibili",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "I conducenti di motocicli sono pi\u00f9 facilmente percepibili dagli altri conducenti di autoveicoli, perch\u00e9 pi\u00f9 rumorosi",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "I conducenti di veicoli a due ruote, avendo una ridotta sagoma frontale, sono pi\u00f9 visibili in distanza",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "I tamponamenti stradali avvengono maggiormente se non si rispetta la distanza di sicurezza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "I tamponamenti stradali avvengono principalmente per l'improvviso guasto del freno di stazionamento",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "I tamponamenti stradali avvengono principalmente per la disattenzione dei conducenti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "I tamponamenti stradali avvengono principalmente per la forte velocit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "I tamponamenti stradali avvengono principalmente tra autoveicoli dotati di servosterzo",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "I tombini presenti sulla carreggiata sono particolarmente pericolosi per la circolazione dei veicoli a due ruote quando il fondo stradale \u00e8 bagnato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "I tombini presenti sulla carreggiata sono un elemento stradale che pu\u00f2 essere pericoloso per la circolazione dei veicoli a due ruote",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il fenomeno dell'aquaplaning aumenta l'aderenza sul fondo stradale",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il fenomeno dell'aquaplaning fa scivolare le ruote sullo strato di acqua",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il fenomeno dell'aquaplaning inizia a velocit\u00e0 pi\u00f9 bassa se il pneumatico \u00e8 molto consumato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il fenomeno dell'aquaplaning non dipende dallo spessore e dal disegno del battistrada",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il fenomeno dell'aquaplaning rafforza il contatto fra pneumatici e asfalto",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il fenomeno dell'aquaplaning si verifica pi\u00f9 facilmente nei veicoli pi\u00f9 leggeri",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/334.jpg",
+        "quiz": "Il pannello in figura obbliga a tornare indietro all'imbocco della galleria",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/335.jpg",
+        "quiz": "Il pannello in figura, posto all'interno di una galleria, indica la presenza di un estintore",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/334.jpg",
+        "quiz": "Il pannello in figura, posto all'interno di una galleria, indica la presenza di una via di fuga",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il passaggio in velocit\u00e0 su tombini o rotaie del tram a bordo di un veicolo a due ruote pu\u00f2 far perdere tenuta di strada e dirigibilit\u00e0 al veicolo, causando sbandamenti o cadute",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In caso di nebbia fitta \u00e8 opportuno accendere i proiettori fendinebbia o, in mancanza, quelli anabbaglianti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In caso di nebbia fitta \u00e8 opportuno circolare con le sole luci di posizioni accese",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In caso di nebbia fitta \u00e8 opportuno evitare di fermarsi sulla carreggiata, se non per cause di forza maggiore",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In caso di nebbia fitta \u00e8 opportuno fermarsi, se necessario, fuori dalla carreggiata",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In caso di nebbia fitta \u00e8 opportuno mantenere in funzione l'indicatore di direzione sinistro",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In caso di nebbia fitta \u00e8 opportuno procedere ad una velocit\u00e0 adeguata alla visibilit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In caso di nebbia fitta \u00e8 opportuno suonare continuativamente il clacson",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In caso di nebbia fitta \u00e8 opportuno tenere la cintura di sicurezza sganciata per essere pi\u00f9 pronti ad abbandonare il veicolo in caso di incidente",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In caso di pioggia occorre aumentare la distanza di sicurezza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In caso di pioggia occorre frenare energicamente",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In caso di pioggia occorre manovrare con prudenza lo sterzo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In caso di pioggia occorre passare velocemente sulle pozzanghere per evitare di rimanere impantanati",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In caso di pioggia occorre procedere, di norma, con il pedale della frizione abbassato",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In caso di pioggia occorre ridurre la velocit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Le rotaie del tram o i tombini presenti sulla carreggiata stradale costituiscono un pericolo per un conducente di veicolo a due ruote, nella sola eventualit\u00e0 che il suo veicolo sia dotato di cambio automatico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Le rotaie del tram sono particolarmente pericolose per la circolazione dei veicoli a due ruote quando il fondo stradale \u00e8 bagnato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Le strisce pedonali dipinte sulla carreggiata sono particolarmente pericolose per la circolazione dei veicoli a due ruote quando il fondo stradale \u00e8 bagnato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Percorrendo un lungo tunnel o traforo, in caso d'incendio, bisogna abbandonare velocemente il veicolo, seguendo la segnaletica che porta alle vie di fuga o ai luoghi sicuri protetti da porte tagliafuoco",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Percorrendo un lungo tunnel o traforo, in caso d'incendio, bisogna attenersi alle istruzioni vocali del personale di servizio o dei vigili del fuoco, per evitare di incamminarsi nella direzione sbagliata",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Percorrendo un lungo tunnel o traforo, in caso d'incendio, bisogna seguire la segnaletica di emergenza, anche se in netto contrasto con gli ordini vocali impartiti dai vigili del fuoco",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando bisogna far salire o scendere un passeggero, \u00e8 opportuno che ci\u00f2 avvenga dal lato del marciapiede o, in mancanza, dal lato opposto al traffico",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando si deve far salire o scendere un bambino dal veicolo, \u00e8 opportuno che vi sia il controllo di un adulto",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando si deve far salire o scendere un passeggero dal veicolo, bisogna aprire la portiera solamente quando non si causa pericolo agli altri utenti della strada",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando si deve far salire o scendere un passeggero dal veicolo, bisogna farlo attendere fino a che il veicolo sia completamente fermo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando si deve far scendere un passeggero, bisogna tenere presente che l'apertura della portiera di destra \u00e8 priva di qualsiasi rischio e pericolo",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando, in un giorno di pioggia, si deve transitare su rotaie del tram o su tombini presenti sulla carreggiata stradale a bordo di un veicolo a due ruote, \u00e8 bene alzarsi in piedi sulle pedivelle prima di transitarvi sopra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando, in un giorno di pioggia, si deve transitare su rotaie del tram o su tombini presenti sulla carreggiata stradale a bordo di un veicolo a due ruote, \u00e8 bene farlo in impennata in modo da non farvi transitare sopra la ruota anteriore che \u00e8 quella direttrice",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando, in un giorno di pioggia, si deve transitare su rotaie del tram o su tombini presenti sulla carreggiata stradale a bordo di un veicolo a due ruote, occorre accelerare decisamente prima di transitarvi sopra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Se si deve circolare con veicolo a due ruote su una carreggiata a circolazione promiscua veicoli/tram, \u00e8 bene se possibile circolare con entrambe le ruote nel solco della rotaia del tram",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Su strade coperte di neve occorre alla partenza, accelerare al massimo",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Su strade coperte di neve occorre aumentare la distanza di sicurezza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Su strade coperte di neve occorre evitare brusche manovre",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Su strade coperte di neve occorre frenare a fondo in caso di sbandamento del veicolo",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Su strade coperte di neve occorre frenare con maggiore energia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Su strade coperte di neve occorre moderare la velocit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Su strade coperte di neve occorre montare pneumatici per neve su tutte le ruote oppure catene sulle ruote motrici",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Su strade coperte di neve occorre sterzare bruscamente per evitare di urtare veicoli fermi",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Sulle strade in cui vige l'obbligo di catene, in caso di nevicata, ai conducenti dei veicoli a due ruote \u00e8 comunque concesso di circolare",
+        "ans": false
+    }
+]

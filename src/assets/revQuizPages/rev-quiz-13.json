@@ -1,0 +1,277 @@
+[
+    {
+        "image": null,
+        "quiz": "Chi intende cambiare corsia deve controllare che la corsia che vuole occupare sia libera davanti per un tratto sufficiente",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Chi intende cambiare corsia deve controllare che la corsia che vuole occupare sia libera dietro per un tratto sufficiente",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Chi intende cambiare corsia deve segnalare la manovra in anticipo, tramite l'indicatore di direzione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Chi intende cambiare corsia ha l'obbligo di segnalare la manovra con l'uso dell'avvisatore acustico (clacson o trombe)",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Chi intende cambiare corsia non deve azionare l'indicatore di direzione se la strada \u00e8 libera",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Chi intende cambiare corsia non deve creare intralcio o pericolo per chi percorre la corsia che vuole impegnare",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Chi intende cambiare corsia, per effettuare un sorpasso, deve controllare che il veicolo che sta davanti non abbia segnalato l'inizio della stessa manovra",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Fuori dai centri abitati non \u00e8 consentito effettuare l'inversione di marcia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende effettuare l'inversione di marcia su una strada a doppio senso deve azionare l'indicatore di direzione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende effettuare l'inversione di marcia su una strada a doppio senso deve azionare la segnalazione luminosa di pericolo",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende effettuare l'inversione di marcia su una strada a doppio senso deve dare la precedenza ai veicoli che sopraggiungono",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende effettuare l'inversione di marcia su una strada a doppio senso deve rinunciare a compiere la manovra, qualora vi sia traffico intenso e continuo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende effettuare l'inversione di marcia su una strada a doppio senso deve rinunciare ad eseguire la manovra, se vi \u00e8 scarsa visibilit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende effettuare l'inversione di marcia su una strada a doppio senso non deve creare pericolo o intralcio agli altri utenti della strada",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende effettuare l'inversione di marcia su una strada a doppio senso pu\u00f2 compiere la manovra anche con scarsa visibilit\u00e0, se la linea di mezzeria \u00e8 tratteggiata",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che intende effettuare l'inversione di marcia su una strada a doppio senso pu\u00f2 compiere la manovra anche in curva, se d\u00e0 precedenza a tutti i veicoli",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente che pu\u00f2 effettuare l'inversione di marcia su una strada a doppio senso deve accertarsi se la linea di mezzeria \u00e8 continua",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In una carreggiata a doppio senso di circolazione per svoltare a sinistra bisogna avvicinarsi al centro della carreggiata",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In una carreggiata a doppio senso di circolazione per svoltare a sinistra bisogna dare la precedenza ai veicoli provenienti da destra, salvo diversa segnalazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In una carreggiata a doppio senso di circolazione per svoltare a sinistra bisogna effettuare la manovra velocemente, per evitare i veicoli provenienti da destra e da sinistra",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/599.jpg",
+        "quiz": "In una carreggiata a doppio senso di circolazione per svoltare a sinistra bisogna effettuare la svolta occupando sempre il lato destro dell'incrocio, come i veicoli in figura",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In una carreggiata a doppio senso di circolazione per svoltare a sinistra occorre suonare il clacson, per attraversare con maggior sicurezza l'incrocio",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/601.jpg",
+        "quiz": "In una carreggiata a doppio senso di circolazione per svoltare a sinistra occorre, di norma, occupare l'area sinistra dell'incrocio, come i veicoli in figura, salvo diversa segnalazione",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/570.jpg",
+        "quiz": "In vicinanza degli incroci, come in figura si pu\u00f2 sempre cambiare corsia fino alla striscia trasversale di arresto",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "L'inversione del senso di marcia non \u00e8 consentita in vicinanza o in corrispondenza degli incroci",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La svolta a destra si effettua girando attorno alla colonnina luminosa eventualmente posta al centro dell'incrocio",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La svolta a destra si effettua moderando la velocit\u00e0 man mano che ci si avvicina al punto di svolta",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La svolta a destra si effettua senza mai dare la precedenza ai pedoni, se il semaforo ha la luce verde accesa",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Nelle strade a doppio senso di circolazione non \u00e8 consentito effettuare l'inversione del senso di marcia in vicinanza o in corrispondenza di curve",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Nelle strade a doppio senso di circolazione non \u00e8 consentito effettuare l'inversione del senso di marcia in vicinanza o in corrispondenza di dossi",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Nelle strade a doppio senso non \u00e8 consentito effettuare l'inversione del senso di marcia in tutti i casi di scarsa visibilit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Per effettuare la svolta a destra bisogna segnalare in anticipo la manovra da compiere, azionando l'indicatore di direzione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Per effettuare la svolta a destra occorre tenersi il pi\u00f9 vicino possibile al margine destro della carreggiata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/599.jpg",
+        "quiz": "Per svoltare a sinistra bisogna girare intorno al centro dell'incrocio, come i veicoli in figura",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/601.jpg",
+        "quiz": "Per svoltare a sinistra bisogna, di norma, lasciare il centro dell'incrocio alla nostra destra, come i veicoli in figura",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Prima di cambiare corsia \u00e8 necessario accertare che le corsie siano separate da una striscia continua",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Qualora la linea di margine della carreggiata sia continua, non \u00e8 consentito effettuare l'inversione di marcia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando manca la segnaletica orizzontale non \u00e8 consentito effettuare manovre di inversione del senso di marcia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando si vuole cambiare corsia bisogna controllare che la corsia da impegnare sia libera davanti per un tratto sufficiente",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando si vuole cambiare corsia l'uso dell'indicatore di direzione \u00e8 facoltativo se ci sono le strisce discontinue (tratteggiate)",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando si vuole cambiare corsia non si deve creare intralcio o pericolo a chi si trova sulla corsia da impegnare",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando si vuole cambiare corsia per un sorpasso \u00e8 obbligatorio ridurre la velocit\u00e0",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando si vuole cambiare corsia si deve segnalare in anticipo la manovra da compiere",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando si vuole cambiare corsia si deve segnalare la manovra, facendo uso dell'indicatore di direzione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando si vuole cambiare corsia, per immettersi nella corsia di destra, non occorre alcuna particolare attenzione",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando si vuole cambiare direzione \u00e8 obbligatorio fare uso delle segnalazioni acustiche (clacson o trombe)",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando si vuole cambiare direzione si deve azionare in anticipo l'indicatore di direzione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando si vuole svoltare a destra \u00e8 necessario portarsi in vicinanza del centro dell'incrocio",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Su strada a senso unico per svoltare a sinistra bisogna tenersi sul margine sinistro",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/601.jpg",
+        "quiz": "Su una strada a doppio senso di marcia nello svoltare a sinistra si deve, di norma, lasciare il centro dell'incrocio alla nostra destra, come i veicoli in figura",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Su una strada a doppio senso di marcia per svoltare a sinistra \u00e8 necessario arrestarsi prima di completare la manovra, anche se non sopraggiungono veicoli",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Su una strada a doppio senso di marcia per svoltare a sinistra \u00e8 necessario spostarsi a sinistra della linea continua di mezzeria",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Su una strada a doppio senso di marcia per svoltare a sinistra non si deve prendere contromano la strada in cui si svolta",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Sulle autostrade a tre corsie per ogni senso di marcia \u00e8 consentito l'inversione del senso di marcia",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/572.jpg",
+        "quiz": "Viaggiando su semicarreggiata a tre corsie, come in figura, per svoltare a sinistra si deve utilizzare la corsia centrale",
+        "ans": false
+    }
+]

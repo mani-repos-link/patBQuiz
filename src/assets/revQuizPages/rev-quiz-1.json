@@ -1,0 +1,742 @@
+[
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/019.jpg",
+        "quiz": "Il segnale raffigurato comporta di moderare la velocit\u00e0",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/024.jpg",
+        "quiz": "Il segnale raffigurato comporta di procedere a velocit\u00e0 moderata e di evitare brusche manovre",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "Il segnale raffigurato comporta il divieto di sorpassare un veicolo che si sia arrestato per far attraversare i pedoni",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "Il segnale raffigurato consente la fermata dei veicoli sull'attraversamento pedonale, purch\u00e9 rimanga spazio sufficiente per i pedoni",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/010.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 installato in prossimit\u00e0 di un passaggio a livello con semibarriere",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/010.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 integrato da una luce verde ed una rossa fissa",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/034.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 obbligatorio sulle strade extraurbane",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/011.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 posto nelle immediate vicinanze di un attraversamento ferroviario a livello senza barriere",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/010.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 posto nelle immediate vicinanze di un attraversamento ferroviario senza barriere",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/010.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 posto sulla strada dopo il segnale PASSAGGIO A LIVELLO SENZA BARRIERE",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/011.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 posto, di norma, a 150 metri dai binari",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/011.jpg",
+        "quiz": "Il segnale raffigurato impone di arrestarsi entro la striscia di arresto, se \u00e8 in arrivo il treno.",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/028.jpg",
+        "quiz": "Il segnale raffigurato impone di dare la precedenza ai veicoli provenienti in senso contrario",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "Il segnale raffigurato impone di usare i dispositivi di segnalazione acustica per far spostare i pedoni",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/011.jpg",
+        "quiz": "Il segnale raffigurato indica che la linea ferroviaria ha pi\u00f9 di un binario",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/010.jpg",
+        "quiz": "Il segnale raffigurato indica che la sede ferroviaria ha un solo binario",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/039.jpg",
+        "quiz": "Il segnale raffigurato preannuncia che bisogna proseguire diritto",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/039.jpg",
+        "quiz": "Il segnale raffigurato preannuncia che bisogna usare prudenza perch\u00e9 \u00e8 vicino un pericolo",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/019.jpg",
+        "quiz": "Il segnale raffigurato preannuncia che i veicoli provenienti dall'altro senso devono darci la precedenza",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/028.jpg",
+        "quiz": "Il segnale raffigurato preannuncia che la circolazione diventa a senso unico",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/024.jpg",
+        "quiz": "Il segnale raffigurato preannuncia che su quella strada diminuisce lo spazio di frenatura",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/028.jpg",
+        "quiz": "Il segnale raffigurato preannuncia che una carreggiata a senso unico, diventa a doppio senso di circolazione",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/028.jpg",
+        "quiz": "Il segnale raffigurato preannuncia che, poco oltre, si potranno incontrare veicoli che marciano in senso opposto",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/033.jpg",
+        "quiz": "Il segnale raffigurato preannuncia il pericolo di caduta di massi da destra",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/019.jpg",
+        "quiz": "Il segnale raffigurato preannuncia l'ingresso di una galleria",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/024.jpg",
+        "quiz": "Il segnale raffigurato preannuncia la possibilit\u00e0 di sbandamento per forte vento laterale",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/031.jpg",
+        "quiz": "Il segnale raffigurato preannuncia la presenza di banchine cedevoli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/034.jpg",
+        "quiz": "Il segnale raffigurato preannuncia la presenza di un ponte mobile",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/034.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un attraversamento ferroviario senza barriere",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un attraversamento pedonale",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/011.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un doppio incrocio stradale pericoloso",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/029.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un incrocio di due o pi\u00f9 strade extraurbane regolato con circolazione rotatoria",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/029.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un incrocio di pi\u00f9 strade regolato con circolazione nel senso indicato dalle frecce",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/037.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un pericolo che, in caso di forte vento laterale, \u00e8 maggiore per i veicoli che trainano rimorchi",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/039.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un pericolo diverso da quelli per cui sono previsti specifici segnali",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/019.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un restringimento sui due lati della carreggiata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/034.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un semaforo",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/028.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un senso unico alternato",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/034.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un senso unico alternato",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/019.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un senso unico alternato con l'obbligo di dare la precedenza ai veicoli provenienti dall'altro senso",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/024.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada che pu\u00f2 diventare pericoloso in particolari condizioni climatiche specificate nei pannelli integrativi",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/018.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada da percorrere con marcia adeguatamente bassa",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/033.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada dove non si pu\u00f2 circolare ad oltre 30 km/h",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/039.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada in cattivo stato o con pavimentazione irregolare",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/006.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada in cui \u00e8 consentita l'inversione di marcia",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/004.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada in cui \u00e8 consentita la fermata, ma non la sosta",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/006.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada in cui \u00e8 consentita la manovra di retromarcia",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/004.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada in cui \u00e8 consentito effettuare l'inversione di marcia",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/004.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada in cui \u00e8 consentito effettuare manovre di retromarcia",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/004.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada in cui \u00e8 necessario percorrere la curva con pi\u00f9 attenzione se la strada \u00e8 bagnata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/004.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada in cui \u00e8 necessario regolare la velocit\u00e0 in relazione alla visibilit\u00e0 e al raggio della curva",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/004.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada in cui non \u00e8 consentito il sorpasso se la carreggiata \u00e8 a doppio senso di circolazione e con due sole corsie",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/033.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada non asfaltato",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/031.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada ove esiste il pericolo di caduta di massi",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/033.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada ove esiste il pericolo di presenza di pietre sulla carreggiata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/018.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada pericoloso per curve strette",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/031.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada soggetto a frana",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/031.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada sul quale l'aderenza del veicolo pu\u00f2 diminuire",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/024.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un tratto di strada sul quale pu\u00f2 diminuire l'aderenza degli pneumatici",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un viale pedonale",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/018.jpg",
+        "quiz": "Il segnale raffigurato preannuncia una discesa e ne specifica la pendenza",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/018.jpg",
+        "quiz": "Il segnale raffigurato preannuncia una salita da percorrere con prudenza",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/024.jpg",
+        "quiz": "Il segnale raffigurato preannuncia una strada con molte curve",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/029.jpg",
+        "quiz": "Il segnale raffigurato preannuncia una strada senza uscita, per cui bisogna tornare indietro",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/033.jpg",
+        "quiz": "Il segnale raffigurato preannuncia una strettoia a destra",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/019.jpg",
+        "quiz": "Il segnale raffigurato preannuncia una strettoia con probabili difficolt\u00e0 di incrocio con i veicoli provenienti dal senso opposto",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/029.jpg",
+        "quiz": "Il segnale raffigurato preannuncia una svolta a sinistra obbligatoria",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/037.jpg",
+        "quiz": "Il segnale raffigurato preannuncia una zona dove, in caso di forte vento laterale, i veicoli con rimorchio hanno maggiore tenuta di strada",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/037.jpg",
+        "quiz": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, un pericolo che \u00e8 maggiore per i veicoli a due ruote",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/037.jpg",
+        "quiz": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, un pericolo che \u00e8 maggiore per i veicoli che trainano caravan",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/037.jpg",
+        "quiz": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, un pericolo che \u00e8 minore per i veicoli con carichi voluminosi sopra il tetto",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/037.jpg",
+        "quiz": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, un pericolo maggiore all'entrata delle gallerie per i veicoli stretti e alti",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/011.jpg",
+        "quiz": "Il segnale raffigurato pu\u00f2 essere posto prima di un attraversamento ferroviario con semibarriere",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/029.jpg",
+        "quiz": "Il segnale raffigurato pu\u00f2 essere usato anche nei centri abitati",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/031.jpg",
+        "quiz": "Il segnale raffigurato richiede di procedere con cautela in presenza di pedoni, anche se si trovano fuori dalla carreggiata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/010.jpg",
+        "quiz": "Il segnale raffigurato si trova, di norma, a 150 metri dai binari",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/002.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito degli autobus",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/029.jpg",
+        "quiz": "Il segnale raffigurato vieta la svolta a destra al primo incrocio",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/016.jpg",
+        "quiz": "In presenza del segnale raffigurato bisogna comportarsi in modo da non costituire pericolo o intralcio per i ciclisti",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/016.jpg",
+        "quiz": "In presenza del segnale raffigurato bisogna dare la precedenza solo ai ciclisti che attraversano da destra",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/017.jpg",
+        "quiz": "In presenza del segnale raffigurato bisogna evitare l'uso prolungato dei freni per non surriscaldarli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/017.jpg",
+        "quiz": "In presenza del segnale raffigurato bisogna marciare con la frizione abbassata",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/034.jpg",
+        "quiz": "In presenza del segnale raffigurato bisogna moderare la velocit\u00e0 per potersi all'occorrenza fermare",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/016.jpg",
+        "quiz": "In presenza del segnale raffigurato bisogna rallentare ed essere pronti ad arrestarsi, se necessario, per dare la precedenza ai ciclisti che attraversano",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "In presenza del segnale raffigurato bisogna rallentare per essere pronti ad arrestarsi se ci sono pedoni che attraversano la carreggiata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/017.jpg",
+        "quiz": "In presenza del segnale raffigurato bisogna usare molta prudenza se la strada \u00e8 bagnata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/006.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 consentito effettuare la fermata in curva",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/008.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 consentito sostare in corrispondenza o in prossimit\u00e0 dei passaggi a livelli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/003.jpg",
+        "quiz": "In presenza del segnale raffigurato e in caso di pioggia \u00e8 necessario prevedere la possibilit\u00e0 di accumulo di acqua nella cunetta",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/001.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario adeguare la velocit\u00e0 in relazione alle particolari condizioni del fondo stradale",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/008.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario arrestarsi se sono in funzione le due luci rosse lampeggianti",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/024.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario diminuire la distanza dal veicolo che ci precede, in caso di pioggia",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/025.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario fare attenzione ai bambini sulla carreggiata e non a quelli sul marciapiede",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/001.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario fare attenzione al restringimento della carreggiata",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/024.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario moderare la velocit\u00e0 ed evitare brusche accelerate in caso di ghiaccio",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/024.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario moderare la velocit\u00e0 ed evitare brusche frenate in caso di pioggia",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/002.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario moderare la velocit\u00e0 in relazione alla visibilit\u00e0",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/008.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario moderare la velocit\u00e0 per essere pronti ad arrestarsi se le barriere sono chiuse",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/003.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario moderare la velocit\u00e0 per evitare danni alle sospensioni",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/001.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario moderare la velocit\u00e0 per evitare eccessive sollecitazioni e danni alle sospensioni",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/003.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario moderare la velocit\u00e0 per mantenere il controllo del veicolo",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/024.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario montare le catene",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/006.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario percorrere le curve con pi\u00f9 attenzione in caso di pioggia",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/009.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario rallentare esclusivamente in caso di nebbia",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/009.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario rallentare in relazione alla visibilit\u00e0 della linea ferroviaria",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/008.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario rallentare solo in caso di scarsa visibilit\u00e0",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/001.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario rallentare solo se provengono veicoli dal senso opposto",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/003.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario rallentare solo se provengono veicoli dal senso opposto",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/006.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario regolare la velocit\u00e0 in relazione alle condizioni di carico del veicolo",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/016.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario tenere presente che i ciclisti devono dare la precedenza ai veicoli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/001.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario tenere saldamente il volante, per controllare possibili sbandamenti",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/009.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 necessario usare la massima prudenza",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/001.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 obbligatorio circolare al centro della carreggiata",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 obbligatorio suonare il clacson se vi sono pedoni che attraversano sulle strisce pedonali",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/009.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 obbligatorio usare il segnalatore acustico (clacson) prima di attraversare i binari",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/033.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 opportuno moderare la velocit\u00e0 per evitare di urtare eventuali massi caduti sulla carreggiata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/002.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 possibile effettuare l'inversione di marcia nel tratto in discesa",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/002.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 vietata l'inversione di marcia",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/014.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 vietata la marcia sopra i binari del tram",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/002.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 vietato il sorpasso nel tratto in discesa",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/003.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 vietato il sorpasso se si circola in una strada a senso unico",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/025.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 vietato sorpassare i veicoli che si sono fermati per lasciare attraversare i bambini",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/025.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 vietato superare la velocit\u00e0 di 30 km/h",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/025.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 vietato transitare durante l'orario di uscita dei bambini da scuola",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "In presenza del segnale raffigurato i pedoni devono dare la precedenza ai veicoli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/017.jpg",
+        "quiz": "In presenza del segnale raffigurato il conducente deve diminuire la distanza di sicurezza dal veicolo che lo precede",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/014.jpg",
+        "quiz": "In presenza del segnale raffigurato il sorpasso dei tram \u00e8 vietato esclusivamente ai motocicli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/014.jpg",
+        "quiz": "In presenza del segnale raffigurato il sorpasso del tram \u00e8 consentito solo a sinistra",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/028.jpg",
+        "quiz": "In presenza del segnale raffigurato il sorpasso, se consentito, deve essere effettuato con particolare prudenza",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/008.jpg",
+        "quiz": "In presenza del segnale raffigurato non \u00e8 consentito impegnare il passaggio a livello se il traffico intenso impedisce di sgomberarlo",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "In presenza del segnale raffigurato non \u00e8 consentito sorpassare i veicoli che rallentano per far attraversare i pedoni",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/016.jpg",
+        "quiz": "In presenza del segnale raffigurato non \u00e8 consentito sorpassare i veicoli che si sono arrestati per far attraversare la carreggiata ai ciclisti",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/003.jpg",
+        "quiz": "In presenza del segnale raffigurato non \u00e8 necessario rallentare se la cunetta presenta visibilit\u00e0",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "In presenza del segnale raffigurato non \u00e8 obbligatorio dare la precedenza ai pedoni che attraversano sulle strisce pedonali",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "In presenza del segnale raffigurato non si deve effettuare sosta o fermata sopra le strisce pedonali",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/031.jpg",
+        "quiz": "In presenza del segnale raffigurato occorre considerare il pericolo di sbandamento o di slittamento",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/025.jpg",
+        "quiz": "In presenza del segnale raffigurato occorre prestare particolare attenzione ai movimenti imprevedibili dei bambini",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/025.jpg",
+        "quiz": "In presenza del segnale raffigurato occorre prestare particolare attenzione per la possibile presenza di bambini",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/017.jpg",
+        "quiz": "In presenza del segnale raffigurato si deve moderare la velocit\u00e0 per evitare di tamponare veicoli che procedono pi\u00f9 lentamente",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/017.jpg",
+        "quiz": "In presenza del segnale raffigurato si deve rallentare usando continuamente i freni per non danneggiare il cambio di velocit\u00e0",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/016.jpg",
+        "quiz": "In presenza del segnale raffigurato si deve suonare il clacson se vi sono ciclisti che stanno attraversando sulle strisce",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/014.jpg",
+        "quiz": "In presenza del segnale raffigurato si pu\u00f2 circolare sui binari senza intralciare la marcia del tram",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/014.jpg",
+        "quiz": "In presenza del segnale raffigurato si pu\u00f2 sorpassare a destra il tram fermo al centro della strada per la salita e discesa dei passeggeri, solo se esiste l'apposito salvagente",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/014.jpg",
+        "quiz": "In presenza del segnale raffigurato si pu\u00f2 sorpassare a destra il tram in marcia se vi \u00e8 lo spazio necessario",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/008.jpg",
+        "quiz": "In presenza del segnale raffigurato sono consentite la fermata ma non la sosta in prossimit\u00e0 o in corrispondenza dei binari",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/002.jpg",
+        "quiz": "In presenza del segnale raffigurato sono vietate la sosta e la fermata sia sul tratto in salita che su quello in discesa",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/015.jpg",
+        "quiz": "In presenza del segnale raffigurato, il conducente deve dare la precedenza ai pedoni che attraversano sulle strisce",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/006.jpg",
+        "quiz": "Su strada a due sole corsie e a doppio senso di circolazione, in presenza del segnale raffigurato si deve marciare il pi\u00f9 possibile vicino al margine destro",
+        "ans": true
+    }
+]

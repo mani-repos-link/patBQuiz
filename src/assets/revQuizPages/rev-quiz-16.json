@@ -1,0 +1,122 @@
+[
+    {
+        "image": null,
+        "quiz": "E' vietato, in quanto costituisce pericolo o intralcio per la circolazione, circolare a velocit\u00e0 troppo bassa senza giustificato motivo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato, in quanto costituisce pericolo o intralcio per la circolazione, effettuare un cambiamento di direzione senza segnalare la manovra con sufficiente anticipo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato, in quanto costituisce pericolo o intralcio per la circolazione, fermare momentaneamente un veicolo lungo il margine destro di una carreggiata a senso unico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato, in quanto costituisce pericolo o intralcio per la circolazione, gareggiare in velocit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato, in quanto costituisce pericolo o intralcio per la circolazione, immettersi nel flusso della circolazione provenendo da strade laterali",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato, in quanto costituisce pericolo o intralcio per la circolazione, regolare la velocit\u00e0 in relazione alle caratteristiche e condizioni delle strade",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato, in quanto costituisce pericolo o intralcio per la circolazione, sostare sui binari tramviari",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' vietato, in quanto costituisce pericolo o intralcio per la circolazione, tenersi sul margine sinistro della carreggiata per svoltare in una strada a destra",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In caso di traffico intenso il conducente deve fare uso del lampeggio simultaneo di tutti gli indicatori di direzione",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In caso di traffico intenso il conducente deve mantenere sempre la distanza di sicurezza dal veicolo che lo precede",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In caso di traffico intenso il conducente deve occupare le corsie riservate alla marcia dei veicoli in servizio pubblico, se libere",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In caso di traffico intenso il conducente deve regolare la propria velocit\u00e0 uniformandola il pi\u00f9 possibile a quella della corrente di traffico che scorre lungo la corsia occupata",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In un centro abitato, quando un pedone, fuori delle strisce di attraversamento, non accenni a darci la precedenza, \u00e8 necessario proseguire, senza curarci di lui, perch\u00e9 abbiamo la precedenza",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In un centro abitato, quando un pedone, fuori delle strisce di attraversamento, non accenni a darci la precedenza, \u00e8 necessario ridurre la velocit\u00e0 e, occorrendo, fermarsi per non investirlo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In un centro abitato, quando un pedone, fuori delle strisce di attraversamento, non accenni a darci la precedenza, \u00e8 necessario ridurre la velocit\u00e0 fino a fermarsi tempestivamente, se occorre",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In un centro abitato, quando un pedone, fuori delle strisce di attraversamento, non accenni a darci la precedenza, \u00e8 opportuno cercare di richiamare la sua attenzione con qualsiasi mezzo, perch\u00e9 ci dia la precedenza",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In un centro abitato, quando un pedone, fuori delle strisce di attraversamento, non accenni a darci la precedenza, \u00e8 opportuno nelle ore notturne, procedere con gli abbaglianti accesi cos\u00ec che possa accorgersi di noi",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In un centro abitato, quando un pedone, fuori delle strisce di attraversamento, non accenni a darci la precedenza, \u00e8 opportuno rallentare e avvisarlo con un breve colpo di clacson, in caso di pericolo immediato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Per non costituire pericolo o intralcio per la circolazione, \u00e8 necessario guidare in modo adeguato alle caratteristiche del veicolo, della strada e del traffico",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Per non costituire pericolo o intralcio per la circolazione, \u00e8 necessario limitarsi ad osservare i limiti massimi di velocit\u00e0",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Per non costituire pericolo o intralcio per la circolazione, \u00e8 necessario limitarsi ad osservare i limiti minimi di velocit\u00e0",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Per non costituire pericolo o intralcio per la circolazione, \u00e8 necessario osservare non solo le norme sulla circolazione, ma anche le cautele dettate dal buonsenso",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Per non costituire pericolo o intralcio per la circolazione, \u00e8 necessario procedere sempre a velocit\u00e0 costante",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Per non costituire pericolo o intralcio per la circolazione, \u00e8 necessario unire all'applicazione delle fondamentali norme sulla circolazione un forte senso civico",
+        "ans": true
+    }
+]

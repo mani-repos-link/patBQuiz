@@ -1,0 +1,302 @@
+[
+    {
+        "image": null,
+        "quiz": "Agli incroci \u00e8 obbligatorio dare la precedenza ai veicoli circolanti su rotaie (tram e treni), salvo diversa segnalazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio dare la precedenza a destra e a sinistra in presenza del segnale ROTATORIA",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio dare la precedenza a destra e a sinistra quando si esce da un passo carrabile",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio dare la precedenza a destra e a sinistra quando, da fermi, ci si immette nella circolazione",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/047.jpg",
+        "quiz": "E' obbligatorio dare la precedenza a tutti i veicoli circolanti in presenza del segnale in figura",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio dare la precedenza a tutti i veicoli circolanti negli incroci regolati da semaforo a luce gialla lampeggiante",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio dare la precedenza a tutti i veicoli circolanti quando si svolta a sinistra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "E' obbligatorio dare la precedenza a tutti i veicoli circolanti sulle strade quando si effettua l'inversione del senso di marcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo ad un incrocio \u00e8 consentito impegnarlo solo se si ha la possibilit\u00e0 di proseguire e liberarlo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo ad un incrocio in cui la circolazione \u00e8 regolata con rotatoria, \u00e8 obbligatorio dare la precedenza ai veicoli provenienti da sinistra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo ad un incrocio, bisogna essere prudenti e tolleranti nei confronti di chi, pur non avendo la precedenza, passa ugualmente per primo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo ad un incrocio, regolato con circolazione rotatoria, prima di immettersi \u00e8 opportuno moderare la velocit\u00e0 ed usare la massima prudenza, controllando nel contempo il comportamento degli altri utenti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo ad un incrocio, se non si \u00e8 in grado di capire subito chi ha la precedenza, bisogna procedere con prudenza e accortezza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo ad un incrocio, se non si \u00e8 in grado di capire subito chi ha la precedenza, si pu\u00f2 proseguire senza rallentare, se si sceglie di andare diritto",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo alla guida di un veicolo a due ruote in vicinanza di un incrocio, bisogna incolonnarsi dietro gli altri veicoli in attesa",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo in vicinanza di un incrocio bisogna passare sempre prima dei veicoli che arrivano da destra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo in vicinanza di un incrocio bisogna predisporsi ad osservare le norme di precedenza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo in vicinanza di un incrocio bisogna sorpassare velocemente a sinistra se si vuole svoltare a destra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo in vicinanza di un incrocio ci si deve spostare per tempo sulla corsia destinata alla direzione che si intende prendere",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo in vicinanza di un incrocio nei centri abitati occorre suonare il clacson",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo in vicinanza di un incrocio si deve segnalare per tempo l'intenzione di svoltare",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Giungendo in vicinanza di un incrocio si deve usare la massima prudenza per evitare incidenti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In presenza del segnale DARE PRECEDENZA occorre usare prudenza e moderare la velocit\u00e0, ma occorre arrestarsi solo in caso di necessit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In presenza del segnale DARE PRECEDENZA, se occorre arrestarsi, bisogna che ci\u00f2 avvenga in corrispondenza della striscia trasversale, formata da una serie di triangoli bianchi",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In presenza del segnale di STOP non occorre arrestarsi, se non vi \u00e8 la linea trasversale di arresto e non si vedono sopraggiungere veicoli",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In un incrocio regolato con circolazione rotatoria, i veicoli circolanti nell'anello possono effettuare manovre di retromarcia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In un incrocio regolato con circolazione rotatoria, l'obbligo di dare la precedenza pu\u00f2 essere imposto ai veicoli che stanno per immettersi",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In vicinanza di un incrocio semaforizzato \u00e8 consentito arrestarsi sulle strisce pedonali, se il semaforo per i pedoni \u00e8 disposto al rosso",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In vicinanza o in corrispondenza degli incroci non \u00e8 consentito cambiare improvvisamente la direzione di marcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In vicinanza o in corrispondenza degli incroci non \u00e8 consentito effettuare l'inversione di marcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In vicinanza o in corrispondenza degli incroci non \u00e8 consentito sorpassare una bicicletta, se si deve occupare la corsia opposta di marcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "In vicinanza o in corrispondenza degli incroci non \u00e8 consentito usare i fari anabbaglianti",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In vicinanza o in corrispondenza degli incroci non si deve rallentare se il semaforo \u00e8 a luce gialla lampeggiante",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "In vicinanza o in corrispondenza degli incroci regolati da semaforo non \u00e8 consentito il sorpasso",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Negli incroci regolati con circolazione rotatoria, in assenza di specifico segnale, vale la regola generale di dare la precedenza a destra",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Negli incroci regolati con rotatoria, la circolazione pu\u00f2 essere disciplinata in modo che i veicoli in entrata diano la precedenza a quelli gi\u00e0 circolanti nell'anello",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Per immettersi in un incrocio, regolato con circolazione rotatoria, bisogna dare sempre la precedenza ai veicoli gi\u00e0 circolanti all'interno della rotatoria",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Qualora in una strada a forte pendenza il passaggio tra veicoli risulti difficoltoso, se uno dei due conducenti si trova in vicinanza di una piazzola di scambio, spetta a lui accostare e lasciar passare l'altro conducente",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando un incrocio \u00e8 regolato con circolazione rotatoria, i veicoli che non svoltano alla prima traversa di destra devono tenersi sulla corsia interna",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando un incrocio \u00e8 regolato con rotatoria, i veicoli circolanti all'interno dell'anello possono sorpassare sia a destra che a sinistra",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione cerchiamo di retrocedere, con prudenza, fino al punto in cui cessano le strisce continue di corsia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione dobbiamo accostarci sulla destra e fermarci finch\u00e9 non sia passata la colonna dei veicoli che seguono",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione dobbiamo arrivare al semaforo e attendere che la luce ci consenta di effettuare il cambio di corsia",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione dobbiamo azionare l'accensione simultanea di tutti gli indicatori di direzione, quale segnale di pericolo",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione dobbiamo chiedere consiglio agli agenti del traffico",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione dobbiamo effettuare la manovra di svolta che intendevamo fare, dando per\u00f2 precedenza a tutti i veicoli",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione dobbiamo procedere nel senso voluto dalla segnaletica, dando le dovute precedenze",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione dobbiamo seguire la direzione consentita dall'eventuale segnaletica orizzontale",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione non ci dobbiamo arrestare bruscamente, per evitare tamponamenti e confusione nella circolazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione non ci dobbiamo fermare a chiedere informazioni, per non ostacolare il flusso della circolazione",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando, giunti in prossimit\u00e0 di un incrocio, ci accorgiamo di aver sbagliato la corsia di preselezione non dobbiamo effettuare cambiamenti di corsia, anche per non intralciare i veicoli che seguono",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se ad un incrocio giungono contemporaneamente da strade diverse due veicoli, entrambi hanno l'obbligo di moderare la velocit\u00e0, per evitare incidenti",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se ad un incrocio giungono contemporaneamente da strade diverse due veicoli, l'obbligo di dare la precedenza spetta al conducente del veicolo che percorre la strada pi\u00f9 stretta",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Se ad un incrocio giungono contemporaneamente da strade diverse due veicoli, l'obbligo di dare la precedenza spetta, di norma, al conducente del veicolo che arriva da sinistra",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se in una strada a forte pendenza, il passaggio tra veicoli non \u00e8 facilmente possibile, in genere spetta al conducente che procede in discesa arrestarsi ed eventualmente fare retromarcia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se in una strada a forte pendenza, il passaggio tra veicoli non \u00e8 facilmente possibile, in genere spetta al conducente che procede in salita arrestarsi",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Uscendo con un veicolo da una propriet\u00e0 privata, bisogna dare la precedenza agli eventuali pedoni",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Uscendo con un veicolo da una propriet\u00e0 privata, bisogna procedere con prudenza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Uscendo con un veicolo da una propriet\u00e0 privata, \u00e8 obbligatorio suonare il clacson",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Uscendo con un veicolo da una propriet\u00e0 privata, si ha la precedenza sui pedoni",
+        "ans": false
+    }
+]

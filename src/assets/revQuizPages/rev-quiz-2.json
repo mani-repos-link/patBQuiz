@@ -1,0 +1,692 @@
+[
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/055.jpg",
+        "quiz": "Il divieto imposto dal segnale raffigurato deve essere rispettato anche nelle ore notturne",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il limite di velocit\u00e0 indicato dal segnale raffigurato entra in vigore 150 metri dopo il segnale stesso",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il limite di velocit\u00e0 indicato sul segnale raffigurato ha validit\u00e0 immediatamente dopo il segnale stesso",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/056.jpg",
+        "quiz": "Il segnale raffigurato consente ad un motociclo di sorpassare un'autovettura",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/056.jpg",
+        "quiz": "Il segnale raffigurato consente ad un'autovettura di sorpassare un motociclo",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/081.jpg",
+        "quiz": "Il segnale raffigurato consente di circolare a velocit\u00e0 superiore a 50 km/h",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/081.jpg",
+        "quiz": "Il segnale raffigurato consente di marciare anche a velocit\u00e0 inferiore a 50 km/h",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/056.jpg",
+        "quiz": "Il segnale raffigurato consente di sorpassare un'autovettura purch\u00e9 non si oltrepassi la striscia continua",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/092.jpg",
+        "quiz": "Il segnale raffigurato consente il parcheggio dalle ore 7.00 alle 9.00",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/056.jpg",
+        "quiz": "Il segnale raffigurato consente il sorpasso tra autovetture se non vi \u00e8 la striscia bianca continua",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/062.jpg",
+        "quiz": "Il segnale raffigurato consente il transito agli autoveicoli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/062.jpg",
+        "quiz": "Il segnale raffigurato consente il transito ai motocicli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/064.jpg",
+        "quiz": "Il segnale raffigurato consente il transito ai motocicli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/064.jpg",
+        "quiz": "Il segnale raffigurato consente il transito alle autovetture",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/054.jpg",
+        "quiz": "Il segnale raffigurato consente il transito alle biciclette",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/055.jpg",
+        "quiz": "Il segnale raffigurato consente l'accesso ai ciclomotori",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/055.jpg",
+        "quiz": "Il segnale raffigurato consente l'accesso ai motocicli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/059.jpg",
+        "quiz": "Il segnale raffigurato consente l'uso del clacson nei casi di ingorgo stradale",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/059.jpg",
+        "quiz": "Il segnale raffigurato consente l'uso del clacson per richiamare l'attenzione in qualsiasi circostanza",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato consente la fermata del veicolo per la salita e la discesa dei passeggeri",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato consente la fermata per far salire o scendere passeggeri",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato consente la fermata se il veicolo non arreca intralcio alla circolazione",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/090.jpg",
+        "quiz": "Il segnale raffigurato consente la fermata, purch\u00e9 il veicolo non sia di intralcio",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/091.jpg",
+        "quiz": "Il segnale raffigurato consente la sosta agli scuolabus",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato consente la sosta ai quadricicli a motore",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/091.jpg",
+        "quiz": "Il segnale raffigurato consente la sosta ai veicoli al servizio di persone invalide munite dell'apposito contrassegno",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/092.jpg",
+        "quiz": "Il segnale raffigurato consente la sosta in alcune ore e la vieta in altre",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato consente la sosta soltanto ai veicoli a due ruote",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato contraddistingue le aree dove \u00e8 proibito lasciare in sosta un veicolo",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/077.jpg",
+        "quiz": "Il segnale raffigurato deve essere rispettato anche dai conducenti di complessi di veicoli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/057.jpg",
+        "quiz": "Il segnale raffigurato deve essere rispettato anche quando si viaggia a bassa velocit\u00e0",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/077.jpg",
+        "quiz": "Il segnale raffigurato deve essere rispettato solo dai conducenti di veicoli adibiti al trasporto di cose",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 posto nei luoghi dove la sosta \u00e8 vietata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/090.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 posto soltanto nelle strade urbane",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/054.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 posto su entrambi gli accessi della strada",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/055.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 posto su una strada a senso unico",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/075.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 un divieto che non riguarda gli autobus",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/080.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 un segnale di via libera",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/055.jpg",
+        "quiz": "Il segnale raffigurato \u00e8 un SENSO VIETATO",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il segnale raffigurato impone di mantenere una distanza di sicurezza di almeno 80 metri",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/077.jpg",
+        "quiz": "Il segnale raffigurato impone il distanziamento minimo tra autocarri per consentire alle autovetture di sorpassarli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/082.jpg",
+        "quiz": "Il segnale raffigurato indica che \u00e8 finito l'obbligo di mantenere la distanza di sicurezza",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/054.jpg",
+        "quiz": "Il segnale raffigurato indica che la circolazione \u00e8 a senso unico",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/076.jpg",
+        "quiz": "Il segnale raffigurato indica che possono passare gli autocarri con carico alto 3,50 metri dal piano del cassone",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/081.jpg",
+        "quiz": "Il segnale raffigurato indica il limite di velocit\u00e0 per tutti i veicoli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/080.jpg",
+        "quiz": "Il segnale raffigurato indica il punto dal quale le prescrizioni precedentemente indicate non sono pi\u00f9 valide",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/082.jpg",
+        "quiz": "Il segnale raffigurato indica il punto in cui termina il divieto di sorpasso",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/076.jpg",
+        "quiz": "Il segnale raffigurato indica l'altezza massima, misurata dal piano stradale, dei veicoli che possono transitare",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/062.jpg",
+        "quiz": "Il segnale raffigurato indica l'inizio di un percorso pedonale",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/076.jpg",
+        "quiz": "Il segnale raffigurato indica la distanza di sicurezza da tenere dal veicolo che precede",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/059.jpg",
+        "quiz": "Il segnale raffigurato indica la fine del divieto di segnalazioni acustiche",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/082.jpg",
+        "quiz": "Il segnale raffigurato indica la fine del divieto di sorpasso precedentemente imposto",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/082.jpg",
+        "quiz": "Il segnale raffigurato indica la fine del divieto di sosta in seconda fila",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/082.jpg",
+        "quiz": "Il segnale raffigurato indica la fine del limite massimo di velocit\u00e0",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/081.jpg",
+        "quiz": "Il segnale raffigurato indica la fine del limite massimo di velocit\u00e0",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/080.jpg",
+        "quiz": "Il segnale raffigurato indica la fine del pericolo precedentemente segnalato",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/081.jpg",
+        "quiz": "Il segnale raffigurato indica la fine dell'obbligo di mantenere una distanza di sicurezza di almeno 50 metri",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/080.jpg",
+        "quiz": "Il segnale raffigurato indica la fine delle prescrizioni precedentemente imposte",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/080.jpg",
+        "quiz": "Il segnale raffigurato indica la fine di un centro abitato",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/075.jpg",
+        "quiz": "Il segnale raffigurato indica la larghezza di una strettoia",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/075.jpg",
+        "quiz": "Il segnale raffigurato indica la larghezza massima dei veicoli ammessi al transito",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/057.jpg",
+        "quiz": "Il segnale raffigurato indica la lunghezza massima del cavo di traino",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il segnale raffigurato indica la velocit\u00e0 consigliata",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il segnale raffigurato indica la velocit\u00e0 massima alla quale i veicoli possono procedere",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/090.jpg",
+        "quiz": "Il segnale raffigurato indica lo sbocco di un passo carrabile",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il segnale raffigurato indica un limite di velocit\u00e0 valido dalle ore 8.00 alle ore 20.00",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il segnale raffigurato indica un limite di velocit\u00e0 valido solo per autoveicoli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/062.jpg",
+        "quiz": "Il segnale raffigurato indica un'area urbana riservata a parco giochi e divertimenti",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/091.jpg",
+        "quiz": "Il segnale raffigurato indica una corsia riservata ai veicoli al servizio di persone invalide",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/054.jpg",
+        "quiz": "Il segnale raffigurato non consente l'ingresso, ma solo l'uscita dalla strada",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/091.jpg",
+        "quiz": "Il segnale raffigurato non consente la sosta a veicoli diversi da quelli al servizio di persone invalide",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato non vale per i motocicli ed i ciclomotori",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il segnale raffigurato obbliga a rispettare un limite massimo di velocit\u00e0",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/064.jpg",
+        "quiz": "Il segnale raffigurato obbliga i motociclisti a servirsi della pista loro riservata",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/077.jpg",
+        "quiz": "Il segnale raffigurato obbliga un veicolo a distanziare quello che lo segue di almeno 10 metri",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il segnale raffigurato permette di effettuare il sorpasso a velocit\u00e0 superiore a 80 km/h",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato preannuncia un divieto di fermata",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/057.jpg",
+        "quiz": "Il segnale raffigurato preavvisa che a 70 metri inizia il divieto di transito per le autovetture",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/091.jpg",
+        "quiz": "Il segnale raffigurato preavvisa una zona vietata al traffico regolare perch\u00e9 attrezzata per persone invalide",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato pu\u00f2 essere integrato da pannelli per indicarne l'inizio, il proseguimento o la fine",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/082.jpg",
+        "quiz": "Il segnale raffigurato pu\u00f2 essere posto sia nei centri urbani che fuori",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il segnale raffigurato pu\u00f2 trovarsi anche sulle autostrade",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/076.jpg",
+        "quiz": "Il segnale raffigurato pu\u00f2 trovarsi in un punto in cui la strada passa sotto un ponte",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/075.jpg",
+        "quiz": "Il segnale raffigurato pu\u00f2 trovarsi prima di una strettoia",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/092.jpg",
+        "quiz": "Il segnale raffigurato rappresenta una regolazione della sosta",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/091.jpg",
+        "quiz": "Il segnale raffigurato rappresenta una specifica eccezione al divieto di sosta",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/080.jpg",
+        "quiz": "Il segnale raffigurato riguarda soltanto i veicoli in servizio pubblico",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/056.jpg",
+        "quiz": "Il segnale raffigurato si pu\u00f2 trovare sia sulle strade urbane che su quelle extraurbane",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/075.jpg",
+        "quiz": "Il segnale raffigurato si riferisce a tutti i veicoli di larghezza superiore a 2,30 metri",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/064.jpg",
+        "quiz": "Il segnale raffigurato si riferisce ai soli motocicli di cilindrata superiore ai 125 cm3",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/057.jpg",
+        "quiz": "Il segnale raffigurato vale anche per i motocicli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato vale solo nei giorni feriali, salvo diversa indicazione",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/090.jpg",
+        "quiz": "Il segnale raffigurato vale solo nelle ore diurne",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/090.jpg",
+        "quiz": "Il segnale raffigurato vale solo nelle ore notturne",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/057.jpg",
+        "quiz": "Il segnale raffigurato vieta ad un veicolo di circolare a meno di 70 metri da quello che lo precede",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "Il segnale raffigurato vieta ai veicoli di superare la velocit\u00e0 indicata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/081.jpg",
+        "quiz": "Il segnale raffigurato vieta di superare la velocit\u00e0 di 50 km/h",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/055.jpg",
+        "quiz": "Il segnale raffigurato vieta il sorpasso",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/056.jpg",
+        "quiz": "Il segnale raffigurato vieta il sorpasso fra autoveicoli, anche se la manovra pu\u00f2 compiersi entro la semicarreggiata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/066.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito a tutti gli autoveicoli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/054.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito a tutti i veicoli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/077.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito a tutti i veicoli di lunghezza complessiva superiore a 10 metri",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/077.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito a veicoli di lunghezza superiore a quella indicata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/062.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito ai ciclomotori",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/064.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito ai motocicli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/064.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito ai motocicli di qualsiasi cilindrata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/062.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito ai pedoni",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/076.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito degli autoveicoli con altezza, comprensiva del carico, superiore a 3,50 metri",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/076.jpg",
+        "quiz": "Il segnale raffigurato vieta il transito degli autoveicoli di lunghezza superiore a 3,50 metri",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/059.jpg",
+        "quiz": "Il segnale raffigurato vieta l'uso del clacson",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/054.jpg",
+        "quiz": "Il segnale raffigurato vieta la circolazione nei due sensi",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato vieta la fermata a tutti i veicoli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/092.jpg",
+        "quiz": "Il segnale raffigurato vieta la fermata del veicolo tra le ore 17.00 e le 20.00",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato vieta la fermata volontaria di tutti i veicoli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato vieta la fermata, ma consente la sosta",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/092.jpg",
+        "quiz": "Il segnale raffigurato vieta la sosta dalle ore 17.00 alle 20.00",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/090.jpg",
+        "quiz": "Il segnale raffigurato vieta la sosta nel luogo dove \u00e8 posto",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato vieta la sosta sia di giorno che di notte, anche nei centri abitati",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato vieta la sosta sul lato della strada dove \u00e8 posto",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato vieta la sosta sulle strade urbane dalle ore 8.00 alle ore 20.00, salvo diversa indicazione",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato vieta la sosta, ma consente la fermata",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato vieta la sosta, ma non la fermata",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato vieta la temporanea sospensione della marcia del veicolo",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/059.jpg",
+        "quiz": "Il segnale raffigurato vieta le segnalazioni acustiche",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Il segnale raffigurato, in assenza di iscrizioni integrative, vige per tutto l'arco delle ventiquattro ore",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/092.jpg",
+        "quiz": "Il segnale raffigurato, nei centri abitati, consente la sosta dalle ore 20.00 alle 8.00",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "Il segnale raffigurato, nelle strade extraurbane, consente la sosta dopo le ore 20.00",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/066.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 consentito il transito agli autobus",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/066.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 consentito il transito agli autocarri",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/066.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 consentito il transito alle autovetture adibite al servizio di taxi",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/059.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 consentito l'uso del clacson solo in caso di pericolo immediato",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/066.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 permesso il transito ai ciclomotori a due ruote",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/066.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 permesso il transito ai motocicli",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/084.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 sempre prevista la rimozione forzata del veicolo",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/058.jpg",
+        "quiz": "In presenza del segnale raffigurato \u00e8 vietato superare la velocit\u00e0 di 80 km/h",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/075.jpg",
+        "quiz": "In presenza del segnale raffigurato i veicoli a trazione animale larghi pi\u00f9 di 2,30 m possono transitare",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/057.jpg",
+        "quiz": "In presenza del segnale raffigurato le autovetture non possono superare la velocit\u00e0 di 70 km/h",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/085.jpg",
+        "quiz": "Lungo le strade dove \u00e8 posto, il segnale raffigurato vale 24 ore su 24",
+        "ans": true
+    }
+]

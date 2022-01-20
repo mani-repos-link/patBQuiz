@@ -1,0 +1,187 @@
+[
+    {
+        "image": null,
+        "quiz": "Chi conduce un motociclo deve considerare che l'aderenza diminuisce quando trasporta un passeggero",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Chi conduce un motociclo deve considerare che l'aderenza diminuisce sulle rotaie specialmente in caso di pioggia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Chi conduce un motociclo deve considerare che l'aderenza diminuisce sulle strisce della segnaletica orizzontale in caso di pioggia",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il coefficiente di aderenza basso favorisce lo slittamento in curva",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il coefficiente di aderenza basso limita la velocit\u00e0 alla quale \u00e8 possibile percorrere una curva in sicurezza",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il coefficiente di aderenza basso non condiziona la velocit\u00e0 del veicolo",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il coefficiente di aderenza basso riduce la distanza di frenatura",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il coefficiente di aderenza basso riduce lo slittamento in curva",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il conducente di un motociclo deve considerare che l'aderenza non dipende dal tipo di pavimentazione stradale",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il ribaltamento in curva del veicolo \u00e8 favorito da un carico posto in alto",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il ribaltamento in curva del veicolo \u00e8 favorito da un carico posto in basso",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il ribaltamento in curva del veicolo \u00e8 favorito da un raggio di curvatura della strada ampio (curva larga)",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il ribaltamento in curva del veicolo \u00e8 favorito da un raggio di curvatura della strada piccolo (curva stretta)",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il ribaltamento in curva del veicolo \u00e8 favorito da una ampia distanza fra ruote dello stesso asse (carreggiata larga)",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Il ribaltamento in curva del veicolo \u00e8 favorito da una ridotta distanza fra ruote dello stesso asse (carreggiata stretta)",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Il ribaltamento in curva del veicolo \u00e8 favorito dal carico non stabilmente fissato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La forza aderente aumenta se l'asfalto \u00e8 bagnato",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La forza aderente aumenta se l'asfalto \u00e8 coperto dal fango",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La forza aderente aumenta se l'asfalto \u00e8 coperto di foglie",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La forza aderente aumenta se l'asfalto \u00e8 coperto di ghiaccio",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La forza aderente consente al veicolo di percorrere la traiettoria voluta",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La forza aderente consente il movimento del veicolo",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La forza aderente diminuisce se l'asfalto \u00e8 bagnato",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La forza aderente non si oppone allo slittamento causato dal vento laterale",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "La forza aderente si oppone allo slittamento dello pneumatico sull'asfalto",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "La forza aderente, se eccessiva, comporta il surriscaldamento dei freni",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando il veicolo percorre una curva \u00e8 assoggettato ad una forza che tende a spostarlo verso l'esterno",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando il veicolo percorre una curva \u00e8 assoggettato ad una forza che tende a spostarlo verso l'interno",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando il veicolo percorre una curva si deve aumentare la velocit\u00e0 per evitare il ribaltamento",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando il veicolo percorre una curva si deve aumentare la velocit\u00e0 per evitare lo slittamento",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Quando il veicolo percorre una curva, la velocit\u00e0 eccessiva pu\u00f2 provocarne il ribaltamento",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Quando il veicolo percorre una curva, la velocit\u00e0 eccessiva pu\u00f2 provocarne lo sbandamento",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se il coefficiente di aderenza diminuisce la distanza di frenatura aumenta",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se il coefficiente di aderenza diminuisce le ruote motrici potrebbero pattinare",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se il coefficiente di aderenza diminuisce lo spazio di frenatura si riduce",
+        "ans": false
+    },
+    {
+        "image": null,
+        "quiz": "Se il coefficiente di aderenza \u00e8 basso bisogna ridurre la velocit\u00e0",
+        "ans": true
+    },
+    {
+        "image": null,
+        "quiz": "Se il coefficiente di aderenza \u00e8 basso bisogna ridurre la velocit\u00e0 solo in curva",
+        "ans": false
+    }
+]

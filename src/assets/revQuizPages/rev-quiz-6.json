@@ -1,0 +1,317 @@
+[
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "Avvicinandosi ad un semaforo, che gi\u00e0 da molto tempo ha la luce verde accesa, occorre accelerare, senza che vi sia necessit\u00e0 di guardare la luce del semaforo",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "Durante il periodo di accensione della luce rossa i veicoli non devono superare la striscia di arresto",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/155.jpg",
+        "quiz": "I segnali luminosi in figura sono semafori per i veicoli in servizio di linea per trasporto di persone",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/155.jpg",
+        "quiz": "I segnali luminosi in figura sono semafori per i veicoli su rotaie (tram, treni)",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "Il segnale luminoso in figura \u00e8 un semaforo per i pedoni",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/158.jpg",
+        "quiz": "Il segnale luminoso in figura \u00e8 un semaforo riservato ai conducenti di biciclette",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "Il segnale luminoso in figura indica la presenza di una scuola",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/156.jpg",
+        "quiz": "Il semaforo in figura consente ai veicoli di trasporto pubblico di persone di proseguire quando in basso \u00e8 accesa la barra bianca",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/159.jpg",
+        "quiz": "Il semaforo in figura consente di impegnare la corsia indicata dalla freccia verde",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/155.jpg",
+        "quiz": "Il semaforo in figura consente di proseguire nella sola direzione della freccia verde",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/156.jpg",
+        "quiz": "Il semaforo in figura impone l'arresto ai veicoli in servizio di linea per trasporto di persone quando \u00e8 accesa la barra bianca in alto",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/158.jpg",
+        "quiz": "Il semaforo in figura indica il divieto di transito per le biciclette",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "Il semaforo in figura indica l'entrata di una struttura sportiva",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/156.jpg",
+        "quiz": "Il semaforo in figura indica la vicinanza di una stazione ferroviaria",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/158.jpg",
+        "quiz": "Il semaforo in figura indica lo svolgimento di una gara ciclistica",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "Il semaforo in figura indica lo svolgimento di una gara podistica",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/156.jpg",
+        "quiz": "Il semaforo in figura indica un passaggio a livello senza barriere",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/158.jpg",
+        "quiz": "Il semaforo in figura indica una corsia riservata ai motocicli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "Il semaforo in figura indica una scala mobile in funzione",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/159.jpg",
+        "quiz": "Il semaforo in figura non consente di occupare la corsia indicata con luce rossa a forma di X",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/159.jpg",
+        "quiz": "Il semaforo in figura non consente di occupare le corsie indicate dalle frecce verdi",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/159.jpg",
+        "quiz": "Il semaforo in figura non vale per le biciclette",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "Il semaforo in figura regola il passaggio dei pedoni negli incroci",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/156.jpg",
+        "quiz": "Il semaforo in figura regola il transito dei pedoni",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/156.jpg",
+        "quiz": "Il semaforo in figura regola il transito nei pontili per l'imbarco sulle navi traghetto",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/155.jpg",
+        "quiz": "Il semaforo in figura riguarda i veicoli che devono proseguire nella direzione della freccia",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "Il semaforo in figura segnala un ascensore pubblico",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/156.jpg",
+        "quiz": "Il semaforo in figura vale per i veicoli in servizio di linea per trasporto di persone",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "Il semaforo in figura, con luce rossa accesa impone ai pedoni di non attraversare",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/158.jpg",
+        "quiz": "Il semaforo in figura, con luce rossa accesa, impone l'arresto alle biciclette",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/158.jpg",
+        "quiz": "Il semaforo in figura, con luce verde accesa, consente soltanto ai conducenti di biciclette di attraversare l'incrocio",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "In presenza della luce semaforica rossa i veicoli devono arrestarsi",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "La luce gialla fissa consente in ogni caso di proseguire impegnando l'incrocio",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "La luce gialla fissa obbliga a fermarsi prima del punto di arresto, purch\u00e9 lo si possa fare senza creare pericolo",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "La luce gialla fissa obbliga chi ha gi\u00e0 impegnato l'incrocio a liberarlo al pi\u00f9 presto",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "La luce gialla fissa si accende insieme con il rosso",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "La luce gialla fissa si accende quando \u00e8 ancora accesa quella rossa",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "La luce gialla fissa si accende quando il verde e il rosso sono spenti",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "La luce rossa accesa del semaforo consente di ripartire lentamente quando appare il giallo per gli altri veicoli",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "La luce rossa accesa del semaforo consente di svoltare a destra con prudenza, dando precedenza ai pedoni che attraversano la strada",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "La luce rossa accesa del semaforo consente l'attraversamento dell'incrocio, purch\u00e9 sia libero",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "La luce verde accesa del semaforo in figura consente ai pedoni di attraversare la strada",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "La luce verde accesa del semaforo in figura consente ai pedoni di impegnare la carreggiata per attraversarla",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "La luce verde accesa del semaforo in figura obbliga i pedoni a dare la precedenza ai veicoli che svoltano",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/157.jpg",
+        "quiz": "La luce verde accesa del semaforo in figura permette ai pedoni l'attraversamento",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/162.jpg",
+        "quiz": "Le luci rosse accese lampeggianti in figura indicano che sta per accendersi la luce verde",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/162.jpg",
+        "quiz": "Le luci rosse accese lampeggianti in figura indicano l'uscita obbligatoria dall'autostrada",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/162.jpg",
+        "quiz": "Le luci rosse accese lampeggianti in figura obbligano a non superare la striscia trasversale d'arresto",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/162.jpg",
+        "quiz": "Le luci rosse accese lampeggianti in figura obbligano ad arrestarsi a un passaggio a livello ferroviario con semibarriere",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/162.jpg",
+        "quiz": "Le luci rosse accese lampeggianti in figura obbligano ad arrestarsi a un passaggio a livello ferroviario senza barriere",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/162.jpg",
+        "quiz": "Le luci rosse accese lampeggianti in figura si trovano in vicinanza di un posto di blocco della polizia",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/159.jpg",
+        "quiz": "Nei semafori in figura la luce gialla lampeggiante obbliga il conducente a spostarsi nella corsia indicata dalla freccia",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/155.jpg",
+        "quiz": "Nei semafori in figura le frecce verdi accese indicano le direzioni verso le quali si pu\u00f2 proseguire",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/159.jpg",
+        "quiz": "Nei semafori in figura, la luce rossa a forma di X impone di arrestarsi ed attendere la luce gialla",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/155.jpg",
+        "quiz": "Nel semaforo in figura le frecce gialle lampeggianti accese indicano di attraversare l'incrocio con particolare prudenza",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/155.jpg",
+        "quiz": "Nel semaforo in figura le frecce rosse accese indicano di proseguire con prudenza",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/155.jpg",
+        "quiz": "Nel semaforo in figura le frecce verdi accese, rivolte verso l'alto, indicano che si pu\u00f2 proseguire in tutte le direzioni",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "Quando \u00e8 accesa la luce rossa del semaforo bisogna arrestarsi prima della striscia trasversale d'arresto",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "Quando \u00e8 accesa la luce verde del semaforo in figura \u00e8 possibile svoltare a sinistra, dando la precedenza ai veicoli che arrivano di fronte",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "Quando \u00e8 accesa la luce verde del semaforo in figura si pu\u00f2 attraversare l'incrocio, usando prudenza",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "Quando \u00e8 accesa la luce verde del semaforo in figura si pu\u00f2 svoltare a destra",
+        "ans": true
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "Quando \u00e8 accesa la luce verde del semaforo in figura si pu\u00f2 svoltare a sinistra, ma solo quando si accende anche la luce gialla",
+        "ans": false
+    },
+    {
+        "image": "https://tuttopatenti.it/quiz/segnali/154.jpg",
+        "quiz": "Quando \u00e8 accesa la luce verde del semaforo in figura, il conducente che svolta a sinistra ha la precedenza sui veicoli che provengono di fronte",
+        "ans": false
+    }
+]
