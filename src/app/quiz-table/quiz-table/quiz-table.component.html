@@ -20,8 +20,12 @@
       </td>
       <td data-column="Answer" [class]="{'correct-cls': quizObj?.isRight, 'incorrect-cls': quizObj.isRight === false}">
         <div class="answer text-center" *ngIf="!revealAllAnswer" >
-          <button (click)="verifyAnswer(quizObj, 'V')">V</button>
-          &nbsp;&nbsp;<button (click)="verifyAnswer(quizObj, 'F')">F</button>
+          <button (click)="verifyAnswer(quizObj, 'V')">V
+            <span class="selected-value" *ngIf="quizObj?.selected=='V'">&times;</span>
+          </button>
+          &nbsp;&nbsp;<button (click)="verifyAnswer(quizObj, 'F')">F
+            <span class="selected-value" *ngIf="quizObj?.selected=='F'">&times;</span>
+          </button>
         </div>
         <div class="answer text-center" *ngIf="revealAllAnswer" > {{quizObj.ans ? 'V': 'F'}}</div>
       </td>

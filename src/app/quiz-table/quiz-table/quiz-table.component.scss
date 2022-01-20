@@ -31,6 +31,14 @@ table {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+  button {
+    position: relative;
+    .selected-value {
+      position: absolute;
+      font-size: 44px;
+      left: 2px;
+    }
+  }
 }
 .listview-viewport {
   height: 85vh;

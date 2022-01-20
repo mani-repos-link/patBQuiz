@@ -11,6 +11,7 @@ export class QuizTableComponent implements OnInit {
   quizList = [];
   @Input()
   revealAllAnswer = false;
+
   constructor(private quizSvc: MultiLingualQuizService,
               private _snackBar: MatSnackBar
   ) { }
@@ -28,11 +29,13 @@ export class QuizTableComponent implements OnInit {
   }
 
   verifyAnswer(quizObj: any, answer: 'V' | 'F') {
-    quizObj['isRight'] = (quizObj.ans == true && answer == 'V') || (quizObj.ans == false && answer == 'F');
+    quizObj['isRight'] =
+      (quizObj.ans == true && answer == 'V') ||
+      (quizObj.ans == false && answer == 'F');
+    quizObj['selected'] = answer;
     if (quizObj.isRight == false) {
       this._snackBar.open('Wrong Answered!', '', {duration: 1500})
     }
-    console.log(quizObj.ans, answer)
   }
 
 }
