@@ -1,0 +1,96 @@
+table {
+  width: 900px;
+  border-collapse: collapse;
+  margin:20px auto;
+  tr:nth-of-type(odd) {
+    background: #eee;
+  }
+  th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+  }
+  td, th {
+    min-width: 30px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 18px;
+  }
+  td:last-child{
+    min-width: 130px;
+  }
+}
+
+.sign-image {
+  width: 70px;
+  height: 70px;
+}
+
+.answer{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.listview-viewport {
+  height: 85vh;
+  min-width: 320px;
+}
+
+
+.list-item {
+  height: 80px;
+}
+
+.correct-cls{
+  background: greenyellow;
+}
+.incorrect-cls{
+  background: red;
+}
+
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+  table {
+    width: 100%;
+  }
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr { border: 1px solid #ccc; }
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+  td:before {
+    position: absolute;
+    padding-right: 10px;
+    white-space: nowrap;
+    content: attr(data-column);
+    color: #000;
+    font-weight: bold;
+  }
+  td:first-child {
+    text-align: left !important;
+    padding-left: 20px !important;
+  }
+  .list-item {
+    min-height: 180px;
+    max-height: 300px;
+  }
+  .sign-image {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+

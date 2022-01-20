@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'quizPatenteClient';
+  revealAnswer = false;
+  revealAllAnswer() {
+    this.revealAnswer = !this.revealAnswer;
+  }
 }
