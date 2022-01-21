@@ -1,6 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {MultiLingualQuizService, QuizQuestion} from "../../services/multi-lingual-quiz.service";
 import {MatSnackBar} from "@angular/material/snack-bar";
+import {interval, map, pipe, take} from "rxjs";
 
 @Component({
   selector: 'app-quiz-table',
@@ -32,7 +33,7 @@ export class QuizTableComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.getAllQuizList();
+    // this.getAllQuizList();
   }
 
   private getQuizListByArg(arg: string) {
@@ -50,8 +51,20 @@ export class QuizTableComponent implements OnInit {
   private getAllQuizList() {
     this.quizSvc.getQuizQuestion().subscribe(
       (quizzes: QuizQuestion[]) => {
-        this.quizList = quizzes;
-        this.quizViewList = quizzes;
+        this.quizList = [];
+        let i,j, chunkArr: any[] = [], chunk = 100;
+        for (i = 0,j = quizzes.length; i < j; i += chunk) {
+          chunkArr.push(quizzes.slice(i, i + chunk));
+        }
+        const time = chunkArr.length // 5 seconds
+        const timer$ = interval(500) // 1000 = 1 second
+        timer$.pipe(
+            take(time),
+            map((v)=> ( time - 1) - v)
+        ).subscribe((v) => {
+          this.quizList.push(...chunkArr[time - v - 1]);
+          this.quizViewList = this.quizList;
+        });
       }
     );
   }
