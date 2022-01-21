@@ -25,6 +25,7 @@
           </button>
           &nbsp;&nbsp;<button (click)="verifyAnswer(quizObj, 'F')">F
             <span class="selected-value" *ngIf="quizObj?.selected=='F'">&times;</span>
+          
           </button>
         </div>
         <div class="answer text-center" *ngIf="revealAllAnswer" > {{quizObj.ans ? 'V': 'F'}}</div>
