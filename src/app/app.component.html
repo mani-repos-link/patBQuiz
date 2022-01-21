@@ -1,13 +1,33 @@
 <mat-toolbar color="primary">
-  <span>Patente B Quiz</span>
+  <span>Pat B Quiz</span>
+
+  <button mat-button [matMenuTriggerFor]="menuQuizByArg" #menuQuizByArgTrigger="matMenuTrigger"
+          (click)="menuQuizByArgTrigger.openMenu()">
+    Quiz By Arguments <mat-icon>arrow_drop_down</mat-icon>
+  </button>
+
+  <mat-menu #menuQuizByArg="matMenu" [overlapTrigger]="false">
+<!--    <span (click)="menuQuizByArgTrigger.closeMenu()">-->
+      <button mat-menu-item (click)="quizTypeChange('All')">All</button>
+      <button mat-menu-item (click)="quizTypeChange(arg)" *ngFor="let arg of argumentsList; let i = index" [title]="arg">
+        {{i+1}}. {{arg}}
+      </button>
+<!--    </span>-->
+  </mat-menu>
 
   <span style="flex: 1 1 auto;"></span>
-  <button mat-button (click)="revealAllAnswer()" mat-raised-button aria-label="Example icon-button with share icon">
-    Reveal All Answer
+  <button mat-icon-button [matMenuTriggerFor]="menuRight" #menuRightTrigger="matMenuTrigger"
+          (click)="menuRightTrigger.openMenu()">
+    <mat-icon>menu</mat-icon>
   </button>
+  <mat-menu #menuRight="matMenu" [overlapTrigger]="false">
+    <button mat-menu-item (click)="showPunjabi()">Show Punjabi</button>
+    <button mat-menu-item (click)="revealAllAnswer()">Reveal All Answers</button>
+  </mat-menu>
+
 </mat-toolbar>
 <div class="row">
-  <div class="col mx-5">
-    <app-quiz-table [revealAllAnswer]="revealAnswer"></app-quiz-table>
+  <div class="col mx-auto my-4">
+    <app-quiz-table [revealAllAnswer]="revealAnswer" [showPunjabi]="showPunjabiTranslation" [quizListType]="quizListType"></app-quiz-table>
   </div>
 </div>

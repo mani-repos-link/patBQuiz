@@ -40,15 +40,7 @@ table {
     }
   }
 }
-.listview-viewport {
-  height: 85vh;
-  min-width: 320px;
-}
 
-
-.list-item {
-  height: 80px;
-}
 
 .correct-cls{
   background: greenyellow;
@@ -73,7 +65,10 @@ table {
     left: -9999px;
   }
 
-  tr { border: 1px solid #ccc; }
+  tr {
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+  }
   td {
     border: none;
     border-bottom: 1px solid #eee;
@@ -91,13 +86,9 @@ table {
     text-align: left !important;
     padding-left: 20px !important;
   }
-  .list-item {
-    min-height: 180px;
-    max-height: 300px;
-  }
   .sign-image {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
 }
 

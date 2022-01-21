@@ -1,36 +1,39 @@
-<cdk-virtual-scroll-viewport itemSize="50" class="listview-viewport">
+<!--<cdk-virtual-scroll-viewport itemSize="50" class="listview-viewport">-->
   <table>
     <tr>
       <th>#</th>
       <th>Quiz</th>
       <th>Answer</th>
     </tr>
-    <tr *cdkVirtualFor="let quizObj of quizList; let i = index;"  class="list-item">
-      <td class="text-center" data-column="">{{i}}</td>
+<!--    <tr *cdkVirtualFor="let quizObj of quizViewList; let i = index;"  class="list-item">-->
+    <tr *ngFor="let quizObj of quizViewList; let i = index;"  class="list-item">
+      <td class="text-center" data-column="">{{i + 1}}</td>
       <td data-column="">
         <div class="row">
           <div class="col-2 border-end border-secondary border-2 text-center" *ngIf="quizObj.image">
-            <img [src]="'/assets/sign-images/' + getFilenameFromUrl(quizObj.image)" class="sign-image" alt="quizObj.image">
+            <img [src]="'/assets/sign-images/' + quizObj.img_name" class="sign-image" [alt]="quizObj.img_name">
           </div>
           <div class="col">
-            {{quizObj.question}} <br>
-            {{quizObj.lang_punj}}
+            {{quizObj.quiz}} <br>
+            <span *ngIf="showPunjabi">{{quizObj.lang_punj}}</span>
           </div>
         </div>
       </td>
-      <td data-column="Answer" [class]="{'correct-cls': quizObj?.isRight, 'incorrect-cls': quizObj.isRight === false}">
+      <td data-column="Answer" [class]="{
+       'correct-cls': !revealAllAnswer && quizObj?.isRight,
+       'incorrect-cls': !revealAllAnswer &&  quizObj.isRight === false
+       }">
         <div class="answer text-center" *ngIf="!revealAllAnswer" >
           <button (click)="verifyAnswer(quizObj, 'V')">V
             <span class="selected-value" *ngIf="quizObj?.selected=='V'">&times;</span>
           </button>
           &nbsp;&nbsp;<button (click)="verifyAnswer(quizObj, 'F')">F
             <span class="selected-value" *ngIf="quizObj?.selected=='F'">&times;</span>
-          
+
           </button>
         </div>
         <div class="answer text-center" *ngIf="revealAllAnswer" > {{quizObj.ans ? 'V': 'F'}}</div>
       </td>
     </tr>
   </table>
-<!--  <div *cdkVirtualFor="let item of items" class="list-item">{{item}}</div>-->
-</cdk-virtual-scroll-viewport>
+<!--</cdk-virtual-scroll-viewport>-->

@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {MultiLingualQuizService} from "../../services/multi-lingual-quiz.service";
+import {MultiLingualQuizService, QuizQuestion} from "../../services/multi-lingual-quiz.service";
 import {MatSnackBar} from "@angular/material/snack-bar";
 
 @Component({
@@ -8,9 +8,20 @@ import {MatSnackBar} from "@angular/material/snack-bar";
   styleUrls: ['./quiz-table.component.scss']
 })
 export class QuizTableComponent implements OnInit {
-  quizList = [];
+  @Input() revealAllAnswer = false;
+  @Input() showPunjabi = true;
+  quizList: QuizQuestion[] = [];
+  quizViewList: QuizQuestion[] = [];
   @Input()
-  revealAllAnswer = false;
+  set quizListType(qType: string) {
+    this.quizType = qType;
+    if (qType == 'All') {
+      this.getAllQuizList();
+    } else {
+      this.getQuizListByArg(qType);
+    }
+  }
+  quizType = 'All';
 
   constructor(private quizSvc: MultiLingualQuizService,
               private _snackBar: MatSnackBar
@@ -19,11 +30,28 @@ export class QuizTableComponent implements OnInit {
   getFilenameFromUrl(url: string) {
     return url.split('/').pop();
   }
+
   ngOnInit(): void {
-    this.quizSvc.getMultiLingualQuiz().subscribe(
-      (quizzes) => {
+    this.getAllQuizList();
+  }
+
+  private getQuizListByArg(arg: string) {
+    if (this.quizList.length == 0) {
+      this._snackBar.open('Strange!!, Impossible!  Please contact Admin ASAP.')
+    }
+    this.quizViewList = [];
+    this.quizList.forEach((quiz) => {
+      if (quiz.argument == arg) {
+        this.quizViewList.push(quiz);
+      }
+    });
+  }
+
+  private getAllQuizList() {
+    this.quizSvc.getQuizQuestion().subscribe(
+      (quizzes: QuizQuestion[]) => {
         this.quizList = quizzes;
-        console.log(this.quizList)
+        this.quizViewList = quizzes;
       }
     );
   }
