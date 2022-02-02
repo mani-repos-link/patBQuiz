@@ -30,9 +30,7 @@ import {MatDialogModule} from "@angular/material/dialog";
 import {MatSliderModule} from "@angular/material/slider";
 import {MatExpansionModule} from "@angular/material/expansion";
 import { QuizByArgumentsComponent } from './components/quiz-by-arguments/quiz-by-arguments.component';
-import {MdePopoverModule} from "@material-extended/mde";
 import {MatCardModule} from "@angular/material/card";
-import {VirtualScrollerModule} from "ngx-virtual-scroller";
 import {ClickedWordPipe} from "./pipes/clicked-word.pipe";
 
 export function initializeApp(appInitSvc: MultiLingualQuizService) {
@@ -55,10 +53,8 @@ export function initializeApp(appInitSvc: MultiLingualQuizService) {
     ClickedWordPipe
   ],
   imports: [
-    VirtualScrollerModule,
     BrowserModule,
     BrowserAnimationsModule,
-    MdePopoverModule,
     HttpClientModule,
     MatSnackBarModule,
     MatToolbarModule,

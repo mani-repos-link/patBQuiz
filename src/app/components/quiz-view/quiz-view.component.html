@@ -10,17 +10,47 @@
       <div *ngIf="quizSetting?.showHints" [innerHTML]="quizQuestion.quiz |  clickedWord: true | highlightParticularWord"></div>
       <div *ngIf="!quizSetting?.showHints" [innerHTML]="quizQuestion?.quiz |  clickedWord: false"></div>
     </span>
-<!--    <button mat-button color="primary" [mdePopoverTriggerFor]="textTranslatePopOver" mdePopoverTriggerOn="click"-->
-<!--            [mdePopoverCloseOnClick]="false">Click Me</button>-->
     <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
          *ngIf="quizSetting?.showGerman">
-      <hr><b>German:</b> {{quizQuestion?.languages?.german?.question}}</div>
+      <hr><b>German:</b> {{quizQuestion?.languages?.german?.question}}
+      <ng-container *ngIf="quizQuestion?.languages?.english?.verified">
+        <mat-icon style="font-size: 12px" [matTooltip]="'Translation checked'">check_circle</mat-icon>
+      </ng-container>
+      <ng-container *ngIf="!quizQuestion?.languages?.english?.verified">
+        <mat-icon style="font-size:16px;" [matTooltip]="'Contact admin to verify the translation'">info</mat-icon>
+      </ng-container>
+    </div>
     <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
-         *ngIf="quizSetting?.showEnglish"><hr><b>English:</b> {{quizQuestion?.languages?.english?.question}}</div>
+         *ngIf="quizSetting?.showEnglish">
+      <hr>
+      <b>English:</b>
+      {{quizQuestion?.languages?.english?.question}}
+
+      <ng-container *ngIf="quizQuestion?.languages?.english?.verified">
+        <mat-icon style="font-size: 12px" [matTooltip]="'Translation checked'">check_circle</mat-icon>
+      </ng-container>
+      <ng-container *ngIf="!quizQuestion?.languages?.english?.verified">
+        <mat-icon style="font-size:16px;" [matTooltip]="'Contact admin to verify the translation'">info</mat-icon>
+      </ng-container>
+    </div>
     <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
-         *ngIf="quizSetting?.showPunjabi"><hr><b>Punjabi:</b> {{quizQuestion?.languages?.punjabi?.question}}</div>
+         *ngIf="quizSetting?.showPunjabi"><hr><b>Punjabi:</b> {{quizQuestion?.languages?.punjabi?.question}}
+      <ng-container *ngIf="quizQuestion?.languages?.english?.verified">
+        <mat-icon style="font-size: 12px" [matTooltip]="'Translation checked'">check_circle</mat-icon>
+      </ng-container>
+      <ng-container *ngIf="!quizQuestion?.languages?.english?.verified">
+        <mat-icon style="font-size:16px;" [matTooltip]="'Contact admin to verify the translation'">info</mat-icon>
+      </ng-container></div>
     <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
-         *ngIf="quizSetting?.showFrance"><hr><b>France:</b> {{quizQuestion?.languages?.france?.question}}</div>
+         *ngIf="quizSetting?.showFrance"><hr><b>France:</b> {{quizQuestion?.languages?.france?.question}}
+
+      <ng-container *ngIf="quizQuestion?.languages?.english?.verified">
+        <mat-icon style="font-size: 12px" [matTooltip]="'Translation checked'">check_circle</mat-icon>
+      </ng-container>
+      <ng-container *ngIf="!quizQuestion?.languages?.english?.verified">
+        <mat-icon style="font-size:16px;" [matTooltip]="'Contact admin to verify the translation'">info</mat-icon>
+      </ng-container>
+    </div>
 
   </div>
   <div class="col-xl-2 col-lg-2 col-md-2 col-md-2 col-sm-12 border d-flex justify-content-center align-items-center">
