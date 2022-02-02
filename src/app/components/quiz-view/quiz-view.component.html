@@ -6,8 +6,8 @@
   <div class="col border py-1">
 
     <span [style]="{'font-weight': quizSetting?.boldText?'600': '400', 'font-size': quizSetting?.quizQuestionFontSize + 'px'}">
-      <div *ngIf="quizSetting?.showHints" [innerHTML]="quizQuestion.quiz | clickedWord : onWordClick | highlightParticularWord"></div>
-      <div *ngIf="!quizSetting?.showHints" [innerHTML]="quizQuestion?.quiz | clickedWord : onWordClick"></div>
+      <div *ngIf="quizSetting?.showHints" [innerHTML]="quizQuestion.quiz |  highlightParticularWord"></div>
+      <div *ngIf="!quizSetting?.showHints" [innerHTML]="quizQuestion?.quiz"></div>
     </span>
 <!--    <button mat-button color="primary" [mdePopoverTriggerFor]="textTranslatePopOver" mdePopoverTriggerOn="click"-->
 <!--            [mdePopoverCloseOnClick]="false">Click Me</button>-->

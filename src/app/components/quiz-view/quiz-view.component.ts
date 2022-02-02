@@ -52,24 +52,31 @@ export class QuizViewComponent implements OnInit, OnDestroy {
   }
   private addEventListenerToWords() {
     const cls = document.getElementsByClassName('quiz-question-word');
-    // console.log(cls.length);
-    // if (cls && cls.length > 0) {
-    //   for (let i = 0; i < cls.length; i++) {
-    //     cls[i].addEventListener('click', (e: Event) => {
-    //       if (e.target && e.target.eventListeners) {
-    //         console.log(e.target.eventListeners());
-    //       }
-    //       e.stopPropagation();
-    //       e.preventDefault();
-    //       // this.onWordClick(e);
-    //     }, true);
-    //     console.log(cls[i])
-    //   }
-    // }
+    if (cls && cls.length > 0) {
+      for (let i = 0; i < cls.length; i++) {
+        if (cls[i].getAttribute('id') == null) {
+          cls[i].setAttribute('id', this.guidGenerator());
+          cls[i].addEventListener('click', (e: Event | any) => {
+            e.stopPropagation();
+            e.preventDefault();
+            if (e.target && e.target?.textContent) {
+              this.onWordClick(e.target?.textContent);
+            }
+          }, true);
+        }
+      }
+    }
   }
 
   ngOnDestroy() {
     this.subscription.unsubscribe();
+  }
+
+  guidGenerator(): string {
+    const S4 = () => {
+      return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+    };
+    return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
   }
 
 }
