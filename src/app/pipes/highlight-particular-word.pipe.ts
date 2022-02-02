@@ -21,14 +21,14 @@ export class HighlightParticularWordPipe implements PipeTransform {
       word = word.trim();
       const wordIdx = newStr.toLowerCase().indexOf(word.toLowerCase());
       if (wordIdx >= 0) {
-        newStr = newStr.replace(word, "<span style='background-color: greenyellow' title=" + word + "> " + word + " </span>")
+        newStr = newStr.replace(word, "<span style='background-color: greenyellow' title='this word is always Vero' title=" + word + "> " + word + " </span>")
       }
     });
     this.twlSvc.incorrect_words_list.forEach((word: string) => {
       word = word.trim();
       const wordIdx = newStr.toLowerCase().indexOf(word.toLowerCase());
       if (wordIdx >= 0) {
-        newStr = newStr.replace(word, "<span style='background-color: indianred' title=" + word + "> " +word+ " </span>")
+        newStr = newStr.replace(word, "<span style='background-color: indianred' title='this word is always Falso' title=" + word + "> " +word+ " </span>")
       }
     });
     return this.sanitizer.bypassSecurityTrustHtml(newStr);

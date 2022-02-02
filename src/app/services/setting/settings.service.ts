@@ -7,11 +7,12 @@ export class QuizSetting {
   showGerman: boolean = false;
   showFrance: boolean = false;
   revealAnswers: boolean = false;
-  showHints: boolean = false;
+  showHints: boolean = true;
   showTranslatedWords: boolean = true;
   isEnabledStickyIntervalOption: boolean = false;
   stickIntervalOnScroll: boolean = false;
   quizQuestionFontSize: number = 18;
+  contributionOn: boolean = false;
   boldText: boolean = false;
 }
 

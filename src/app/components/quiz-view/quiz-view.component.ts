@@ -4,7 +4,6 @@ import {QuizSetting, SettingsService} from "../../services/setting/settings.serv
 import {Subscription} from "rxjs";
 import {MatDialog} from "@angular/material/dialog";
 import {ImageViewModalComponent} from "./image-view-modal/image-view-modal.component";
-import {MdePopover, MdePopoverTrigger} from "@material-extended/mde";
 
 
 @Component({
@@ -13,9 +12,6 @@ import {MdePopover, MdePopoverTrigger} from "@material-extended/mde";
   styleUrls: ['./quiz-view.component.scss']
 })
 export class QuizViewComponent implements OnInit, OnDestroy {
-
-  @ViewChild('textTranslatePopOverTrigger', {static: true, read: MdePopoverTrigger})
-  textTranslatePopOver!: MdePopoverTrigger;
 
   @Input() listIndex: number | undefined;
   @Input() quizQuestion!: QuizQuestion;
