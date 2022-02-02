@@ -1,5 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {MultiLingualQuizService} from "./services/multi-lingual-quiz.service";
+import {MultiLingualQuizService, QuizArgument} from "./services/multi-lingual-quiz.service";
+import {MatSnackBar} from "@angular/material/snack-bar";
+import {NgxSpinnerService} from "ngx-spinner";
 
 @Component({
   selector: 'app-root',
@@ -11,15 +13,22 @@ export class AppComponent implements OnInit {
   quizListType = 'All';
   showPunjabiTranslation = true;
   revealAnswer = false;
-  argumentsList: string[] = [];
+  argumentsList: QuizArgument[] = [];
+  showHint: boolean = true;
 
-  constructor(private quizSvc: MultiLingualQuizService) {
-  }
+  constructor(
+    private quizSvc: MultiLingualQuizService,
+    private _snackBar: MatSnackBar,
+    private spinner: NgxSpinnerService
+  ) { }
 
   ngOnInit() {
+    // this.spinner.show();
     this.quizSvc.getArgumentsList().subscribe(
-      (s: string[]) => {
-      this.argumentsList = s;
+      (s: Map<string, QuizArgument>) => {
+        const l = Array.from(s.values());
+        this.argumentsList = l;
+        // this.spinner.hide();
     });
   }
 
@@ -29,7 +38,13 @@ export class AppComponent implements OnInit {
   revealAllAnswer() {
     this.revealAnswer = !this.revealAnswer;
   }
-  quizTypeChange(arg: string) {
-    this.quizListType = arg;
+  showHintM() {
+    this.showHint = !this.showHint;
+    if (this.showHint == false) {
+      this._snackBar.open('Green: Always Vero!, -=- Red: Always Falso!', '',{duration: 5000});
+    }
+  }
+  quizTypeChange(arg: QuizArgument | 'All') {
+    this.quizListType = arg == 'All' ? arg : arg.argName;
   }
 }

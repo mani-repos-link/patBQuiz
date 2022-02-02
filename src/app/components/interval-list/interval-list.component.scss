@@ -1,0 +1,62 @@
+.interval-col {
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 30px;
+  background: var(--app-primary-color);
+  color: #fff;
+  cursor: pointer;
+  font-size: var(--font-size);
+  &.interval-final-row {
+    background: var(--app-primary-color);
+    color: #fff;
+  }
+  .active-interval,
+  &.active-interval {
+    background: var(--app-fourth-color);
+    font-size: var(--hover-font-size);
+  }
+  &:hover,
+  :hover {
+    font-size: var(--hover-font-size);
+  }
+
+}
+
+.intervals-container {
+  background-color: #ffffff;
+}
+
+.sticky {
+  position: fixed;
+  top: 56px;
+  //width: 100%;
+  width: 80%;
+  max-width: 1400px;
+}
+
+@media only screen and (max-width: 576px) {
+  .sticky {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sticky {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .sticky {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 765px) and (max-width: 1200px) {
+  .sticky {
+    width: 70%;
+  }
+}

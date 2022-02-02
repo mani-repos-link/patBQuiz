@@ -1,0 +1,64 @@
+<mat-toolbar class="mat-elevation-z8">
+  <button mat-icon-button (click)="sidenav.toggle()">
+    <mat-icon *ngIf="!sidenav.opened">menu</mat-icon>
+    <mat-icon *ngIf="sidenav.opened">close</mat-icon>
+  </button>
+  Patente B Revisione
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+    <button mat-button [routerLink]="''" class="menu-button">
+      <span>Home</span>
+    </button>
+    <button mat-button [routerLink]="'all'" class="menu-button">
+      <span>All Revision Quiz</span>
+    </button>
+    <button mat-button class="menu-button" (click)="alertMessage('Comming Soon!')">
+      <span>Quiz Scheda</span>
+    </button>
+    <button mat-button class="menu-button" (click)="toggleMenuQuizByArgs()">
+      <span>Quiz by Arguments</span>
+      <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
+    <ng-container *ngIf="menuQuizByArgsOpen">
+      <button [routerLink]="['quiz-by-arg', arg.key]"
+              style="max-width: 156px"
+              class="ms-2 btn btn-light menu-button my-1 text-start"
+              *ngFor="let arg of argMap | keyvalue; let i = index;">
+        {{i+1}}. {{arg.key}} ({{arg.value.totalQuizzes}})
+      </button>
+    </ng-container>
+    <mat-divider></mat-divider>
+
+    <b class="text-start d-flex mb-2">Settings</b>
+
+    <div class="d-flex flex-column">
+      <mat-slide-toggle class="mb-1" *ngIf="quizSetting?.isEnabledStickyIntervalOption"
+                        [(ngModel)]="quizSetting.stickIntervalOnScroll">Stick Intervals on top</mat-slide-toggle>
+      <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.showPunjabi">Show punjabi</mat-slide-toggle>
+      <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.revealAnswers">Reveal answer</mat-slide-toggle>
+      <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.showHints">Show hints</mat-slide-toggle>
+
+    </div>
+    <mat-divider></mat-divider>
+    <b class="text-start d-flex mb-2">Quiz text:</b>
+    <div class="d-flex flex-column pt-2">
+
+      <span class="text-start d-flex ">Font: {{fontSizeSlider.value}}</span>
+
+      <mat-slider class="py-0" #fontSizeSlider [thumbLabel]="true" color="primary"
+                  [(ngModel)]="quizSetting.quizQuestionFontSize" [tickInterval]="14" [min]="10" [max]="28"
+                  step="2">
+      </mat-slider>
+      <br>
+      <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.boldText">Bold Text</mat-slide-toggle>
+    </div>
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="main-content-container mat-elevation-z8">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

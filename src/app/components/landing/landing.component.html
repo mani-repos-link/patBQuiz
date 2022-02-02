@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="row my-0">
+    <div class="col">
+      <h2>Patente B revisione</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 col-xs-6"> Total Quiz </div>
+    <div class="col-lg-2 col-xs-6"> {{quizInfo?.totalQuizzes}} </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 col-xs-6"> Total Arguments </div>
+    <div class="col-lg-2 col-xs-6"> {{quizInfo?.totalArguments}} </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 col-xs-6"> Total hints </div>
+    <div class="col-lg-2 col-xs-6"> {{quizInfo?.totalHints}} </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 col-xs-6"> Total True questions </div>
+    <div class="col-lg-2 col-xs-6"> {{quizInfo?.totalVeroQuestions}} </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 col-xs-6"> Total sign questions </div>
+    <div class="col-lg-2 col-xs-6"> {{quizInfo?.totalSignQuestions}} </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 col-xs-6"> Total signs </div>
+    <div class="col-lg-2 col-xs-6"> {{quizInfo?.totalSigns}} </div>
+  </div>
+  <div class="row my-3">
+    <div class="col-lg-6 col-xs-6"> <h2>Arguments </h2> </div>
+    <div class="col-lg-2 col-xs-2"> Hints </div>
+    <div class="col-lg-2 col-xs-2"> Total true </div>
+    <div class="col-lg-2 col-xs-2"> Quizzes </div>
+    <div class="col-lg-12 col-xs-12">
+      <ol>
+        <li *ngFor="let arg of argMap | keyvalue">
+          <div class="row">
+            <div class="col-lg-6 col-xs-6"> <b>{{ arg.key }} </b> </div>
+            <div class="col-lg-2 col-xs-2"> {{ arg.value.totalHints}} </div>
+            <div class="col-lg-2 col-xs-2"> {{ arg.value.totalVero}} </div>
+            <div class="col-lg-2 col-xs-2"> {{ arg.value.totalQuizzes}} </div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+</div>

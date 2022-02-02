@@ -1,4 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --font-size: 14px;
+  --hover-font-size: 18px;
+  --app-primary-color: #002B5C;
+  --app-secondary-color: #00588A;
+  --app-third-color: #00879D;
+  --app-fourth-color: #00B394;
 
+}
 html, body { width:100%; height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  padding: 0;
+  font-size: 12px;
+  color: #000;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  overflow-y: scroll;
+  background: grey;
+  box-shadow: inset 0 0 4px #707070;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--app-third-color);
+  border-radius: 10px;
+}
+
+.v-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

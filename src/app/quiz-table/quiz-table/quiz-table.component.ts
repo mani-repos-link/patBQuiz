@@ -1,7 +1,8 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {MultiLingualQuizService, QuizQuestion} from "../../services/multi-lingual-quiz.service";
 import {MatSnackBar} from "@angular/material/snack-bar";
-import {interval, map, pipe, take} from "rxjs";
+import {interval, map, take} from "rxjs";
+import {TrickWordsListService} from "../../services/trick-words-list.service";
 
 @Component({
   selector: 'app-quiz-table',
@@ -11,6 +12,8 @@ import {interval, map, pipe, take} from "rxjs";
 export class QuizTableComponent implements OnInit {
   @Input() revealAllAnswer = false;
   @Input() showPunjabi = true;
+  @Input() showHint = true;
+  counter: number = 0;
   quizList: QuizQuestion[] = [];
   quizViewList: QuizQuestion[] = [];
   @Input()
@@ -25,27 +28,24 @@ export class QuizTableComponent implements OnInit {
   quizType = 'All';
 
   constructor(private quizSvc: MultiLingualQuizService,
+              private twlSvc: TrickWordsListService,
               private _snackBar: MatSnackBar
   ) { }
 
-  getFilenameFromUrl(url: string) {
-    return url.split('/').pop();
-  }
+  ngOnInit(): void { }
 
-  ngOnInit(): void {
-    // this.getAllQuizList();
-  }
 
   private getQuizListByArg(arg: string) {
     if (this.quizList.length == 0) {
       this._snackBar.open('Strange!!, Impossible!  Please contact Admin ASAP.')
     }
     this.quizViewList = [];
-    this.quizList.forEach((quiz) => {
-      if (quiz.argument == arg) {
-        this.quizViewList.push(quiz);
-      }
-    });
+    const argument = this.quizSvc.quizData.argumentsList.getValue().get(arg);
+    const quizzed = argument?.questions;
+    if (quizzed) {
+      this.quizList = quizzed;
+    }
+    this._snackBar.open('Hints found in argument ' + argument?.totalHints + '')
   }
 
   private getAllQuizList() {

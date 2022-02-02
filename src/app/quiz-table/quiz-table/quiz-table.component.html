@@ -6,7 +6,7 @@
       <th>Answer</th>
     </tr>
 <!--    <tr *cdkVirtualFor="let quizObj of quizViewList; let i = index;"  class="list-item">-->
-    <tr *ngFor="let quizObj of quizViewList; let i = index;"  class="list-item">
+    <tr *ngFor="let quizObj of quizViewList | slice:0:50; let i = index;"  class="list-item">
       <td class="text-center" data-column="">{{i + 1}}</td>
       <td data-column="">
         <div class="row">
@@ -14,7 +14,8 @@
             <img [src]="'/assets/sign-images/' + quizObj.img_name" class="sign-image" [alt]="quizObj.img_name">
           </div>
           <div class="col">
-            {{quizObj.quiz}} <br>
+            <span *ngIf="showHint" [innerHTML]="quizObj.quiz | highlightParticularWord"></span> <br>
+            <span *ngIf="!showHint" [innerHTML]="quizObj.quiz"></span> <br>
             <span *ngIf="showPunjabi">{{quizObj.lang_punj}}</span>
           </div>
         </div>

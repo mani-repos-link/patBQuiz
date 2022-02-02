@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>{{urlParamArgument}}</h2>
+      <hr>
+    </div>
+  </div>
+  <br>
+  <div class="row" *ngFor="let qq of quizArgument?.questions; let i = index">
+    <div class="col">
+      <app-quiz-view [quizQuestion]="qq" [listIndex]="i"></app-quiz-view>
+      <!--      {{qq.quiz}}-->
+    </div>
+  </div>
+</div>

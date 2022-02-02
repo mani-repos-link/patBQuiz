@@ -1,0 +1,34 @@
+<div #intervalContainer class="intervals-container">
+  <ng-container  *ngTemplateOutlet="quizInterval; context:{ $implicit: intervalsTree, data: intervalsData}"></ng-container>
+
+  <div class="row" *ngIf="enableFinalRow">
+    <div class="col interval-col interval-final-row"
+         *ngFor="let i of rangeNumbers"
+         (click)="onQuizQuestionNumberClick(i)"
+         [class.active-interval]="currentActiveQuestion==i">
+      {{i + 1}}
+    </div>
+  </div>
+</div>
+
+<ng-template #quizInterval let-data="data" let-list>
+  <div class="row justify-content-center align-content-center align-items-center">
+    <div *ngFor="let item of list" class="interval-col col"
+         [class.active-interval]="item.active"
+         (click)="onIntervalClick(item, data)">
+      {{item.startRange}} - {{item.endRange}}
+    </div>
+  </div>
+  <ng-container *ngIf="data.children?.length > 0 && data.children[data.index]?.child">
+    <ng-container
+      *ngTemplateOutlet="quizInterval;
+       context:{
+        $implicit: data.children,
+         data: {
+          index: data.index,
+          children: data.children[data.index]?.child
+         }
+      }"
+    ></ng-container>
+  </ng-container>
+</ng-template>

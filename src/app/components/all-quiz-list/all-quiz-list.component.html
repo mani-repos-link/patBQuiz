@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>All Quiz</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <app-interval-list [itemsSize]="quizData?.totalQuizzes"
+                         [enableFinalRow]="false"
+                         (currentInterval)="onQuizViewIntervalChange($event);"
+      ></app-interval-list>
+    </div>
+  </div>
+  <br>
+  <div class="row" *ngFor="let qq of quizViewList; let i = index">
+    <div class="col">
+      <app-quiz-view [quizQuestion]="qq" [listIndex]="i"></app-quiz-view>
+<!--      {{qq.quiz}}-->
+    </div>
+  </div>
+</div>
