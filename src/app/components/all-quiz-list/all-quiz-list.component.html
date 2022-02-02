@@ -23,7 +23,7 @@
 
 
   <cdk-virtual-scroll-viewport itemSize="90" #cdkVirtualScrollViewport [style]="{height: quizContainerHeight + 'px'}">
-    <div *cdkVirtualFor="let item of quizViewList; templateCacheSize: 50;let i = index;" class="example-item">
+    <div *cdkVirtualFor="let item of quizViewList; templateCacheSize: 0;let i = index;" class="example-item">
       <app-quiz-view [quizQuestion]="item" [listIndex]="i"></app-quiz-view>
     </div>
   </cdk-virtual-scroll-viewport>

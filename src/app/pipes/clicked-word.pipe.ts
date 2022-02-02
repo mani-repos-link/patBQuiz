@@ -18,7 +18,7 @@ export class ClickedWordPipe implements PipeTransform {
     'e', 'in', 'nel', 'nello', 'ad', 'allo', 'agli', 'alle', 'di', 'o', 'i', 'ai'
   ]
 
-  transform(value: string | undefined, onWordClickFunc: (str: string) => void,...args: unknown[]): SafeHtml {
+  transform(value: string | undefined, passAsString: boolean, ...args: unknown[]): SafeHtml | string {
     const val: string[] = value?.split(' ') || [];
     let newSentence = '';
     val.forEach((word: string) => {
@@ -30,7 +30,7 @@ export class ClickedWordPipe implements PipeTransform {
         }
       }
     });
-    return this.sanitizer.bypassSecurityTrustHtml(newSentence);
+    return passAsString ? newSentence: this.sanitizer.bypassSecurityTrustHtml(newSentence);
   }
 
 }

@@ -1,9 +1,11 @@
-import {Component, Input, OnDestroy, OnInit} from '@angular/core';
-import {QuizQuestion} from "../../services/multi-lingual-quiz.service";
+import {Component, HostListener, Input, OnDestroy, OnInit, ViewChild} from '@angular/core';
+import {MultiLingualQuizService, QuizDictionaryMeanings, QuizQuestion} from "../../services/multi-lingual-quiz.service";
 import {QuizSetting, SettingsService} from "../../services/setting/settings.service";
 import {Subscription} from "rxjs";
 import {MatDialog} from "@angular/material/dialog";
 import {ImageViewModalComponent} from "./image-view-modal/image-view-modal.component";
+import {MdePopover, MdePopoverTrigger} from "@material-extended/mde";
+
 
 @Component({
   selector: 'app-quiz-view',
@@ -12,6 +14,9 @@ import {ImageViewModalComponent} from "./image-view-modal/image-view-modal.compo
 })
 export class QuizViewComponent implements OnInit, OnDestroy {
 
+  @ViewChild('textTranslatePopOverTrigger', {static: true, read: MdePopoverTrigger})
+  textTranslatePopOver!: MdePopoverTrigger;
+
   @Input() listIndex: number | undefined;
   @Input() quizQuestion!: QuizQuestion;
   quizSetting!: QuizSetting;
@@ -19,13 +24,17 @@ export class QuizViewComponent implements OnInit, OnDestroy {
   currentAnswered: boolean | undefined;
   private subscription: Subscription = new Subscription();
   clickedWord: string  | undefined;
+  private quizDictionary!: Map<string, QuizDictionaryMeanings>;
+  private currentPopOver: any[] = [];
 
   constructor(
     public dialog: MatDialog,
+    public mQuizSvc: MultiLingualQuizService,
     private settingSvc: SettingsService,
   ) { }
 
   ngOnInit(): void {
+    this.quizDictionary = this.mQuizSvc.getQuizDictionary();
     this.listenSetting$();
     this.addEventListenerToWords();
   }
@@ -48,9 +57,49 @@ export class QuizViewComponent implements OnInit, OnDestroy {
     this.isQuizCorrect = this.quizQuestion?.ans == ans;
   }
 
-  onWordClick(word: string) {
+  private onWordClick(word: string, dom: any) {
+    // @ts-ignore
+    const bs = window['bootstrap'];
     this.clickedWord = word;
-    console.log(word);
+    const w = word.replace(',', '')
+      .replace('', '');
+    let popover = bs.Popover.getInstance(dom);
+    if (popover == null) {
+      popover = new bs.Popover(dom, {
+        animation: true,
+        html: true,
+        trigger: 'click',
+        placement: 'top'
+      });
+      this.currentPopOver.push(popover);
+      const m = this.quizDictionary.get(w) || this.quizDictionary.get(w.toLowerCase()) ;
+      if (m) {
+        let content = '<b>Word "' + w + '" occurs ' + m.occurrence + ' times.</b>';
+        content += '<br> Translation: ';
+        content += '<br> English: <b>' + m.english + '</b>';
+        content += '<br> German: ' + m.german;
+        content += '<br> France: ' + m.france;
+        content += '<br> Punjabi: ' + m.punjabi;
+        content += '<br><button class="btn btn-secondary my-2 float-end"' +
+          ' onclick="$(&quot;#' + dom.getAttribute('id') + '&quot;).popover(&quot;hide&quot;)">Close</button>' ;
+        popover._config.content = content;
+        popover._config.sanitizeFn = null;
+        popover._config.allowList['button'] = ['*', 'class', 'onclick'];
+        console.log(popover._config)
+      }
+    }
+    if (this.quizSetting.showTranslatedWords) {
+      popover.show();
+    }
+  }
+
+  @HostListener('window:click', ['$event'])
+  onWindowClick(e: any) {
+    if (this.currentPopOver?.length > 0 ) {
+      this.currentPopOver.forEach((popover: any) => {
+        popover.hide();
+      });
+    }
   }
 
   private addEventListenerToWords() {
@@ -63,7 +112,7 @@ export class QuizViewComponent implements OnInit, OnDestroy {
             e.stopPropagation();
             e.preventDefault();
             if (e.target && e.target?.textContent) {
-              this.onWordClick(e.target?.textContent);
+              this.onWordClick(e.target?.textContent, e.target);
             }
           }, true);
         }

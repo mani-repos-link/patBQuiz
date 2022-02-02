@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
     "@material-extended/mde": "^3.0.3",
+    "ngx-popper": "^7.0.0",
     "ngx-spinner": "^13.0.0",
     "ngx-virtual-scroller": "^4.0.3",
     "rxjs": "~7.4.0",

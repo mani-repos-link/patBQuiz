@@ -33,6 +33,7 @@ import { QuizByArgumentsComponent } from './components/quiz-by-arguments/quiz-by
 import {MdePopoverModule} from "@material-extended/mde";
 import {MatCardModule} from "@angular/material/card";
 import {VirtualScrollerModule} from "ngx-virtual-scroller";
+import {ClickedWordPipe} from "./pipes/clicked-word.pipe";
 
 export function initializeApp(appInitSvc: MultiLingualQuizService) {
   return () => appInitSvc.initQuizApp();
@@ -50,7 +51,8 @@ export function initializeApp(appInitSvc: MultiLingualQuizService) {
     AllQuizListComponent,
     QuizViewComponent,
     ImageViewModalComponent,
-    QuizByArgumentsComponent
+    QuizByArgumentsComponent,
+    ClickedWordPipe
   ],
   imports: [
     VirtualScrollerModule,

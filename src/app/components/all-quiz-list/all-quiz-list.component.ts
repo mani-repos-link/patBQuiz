@@ -37,13 +37,7 @@ export class AllQuizListComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    console.log(this.allQuizContainer.nativeElement.offsetHeight);
     this.fetchQuizData();
-  }
-
-  private updateViewPortHeight() {
-    // cdkVirtualScrollViewport
-    // this.cdkVirtualScrollViewport.elementRef.nativeElement.style.height =
   }
 
   private fetchQuizData() {
@@ -53,7 +47,6 @@ export class AllQuizListComponent implements OnInit {
       this.quizViewList = qd.quizzes.getValue();
       this.listenToQuizData();
       this.loadQuizQuestions();
-      this.updateViewPortHeight();
     });
   }
 
@@ -61,7 +54,6 @@ export class AllQuizListComponent implements OnInit {
     this.quizData?.quizzes.subscribe((quizList: QuizQuestion[]) => {
       this.quizList = quizList;
       this.loadQuizQuestions();
-      this.updateViewPortHeight();
     });
   }
 

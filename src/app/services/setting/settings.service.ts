@@ -8,10 +8,11 @@ export class QuizSetting {
   showFrance: boolean = false;
   revealAnswers: boolean = false;
   showHints: boolean = false;
+  showTranslatedWords: boolean = true;
   isEnabledStickyIntervalOption: boolean = false;
   stickIntervalOnScroll: boolean = false;
-  quizQuestionFontSize: number = 14;
-  boldText: boolean = true;
+  quizQuestionFontSize: number = 18;
+  boldText: boolean = false;
 }
 
 @Injectable({

@@ -12,7 +12,7 @@ export class HighlightParticularWordPipe implements PipeTransform {
     private twlSvc: TrickWordsListService
   ){}
 
-  transform(value: any, ...args: any[]): any {
+  transform(value: any | string, ...args: any[]): any {
     if (!value) {
       return value;
     }

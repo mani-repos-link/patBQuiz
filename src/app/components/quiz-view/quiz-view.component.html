@@ -1,3 +1,4 @@
+
 <div class="row border my-2">
   <div class="col-sm-1 text-center pt-1" *ngIf="listIndex != null"> {{listIndex}} </div>
   <div class="col-xl-1 col-lg-2 col-md-2 col-sm-12 border text-center" (click)="openImageViewDialog()" *ngIf="quizQuestion?.image">
@@ -6,19 +7,20 @@
   <div class="col border py-1">
 
     <span [style]="{'font-weight': quizSetting?.boldText?'600': '400', 'font-size': quizSetting?.quizQuestionFontSize + 'px'}">
-      <div *ngIf="quizSetting?.showHints" [innerHTML]="quizQuestion.quiz |  highlightParticularWord"></div>
-      <div *ngIf="!quizSetting?.showHints" [innerHTML]="quizQuestion?.quiz"></div>
+      <div *ngIf="quizSetting?.showHints" [innerHTML]="quizQuestion.quiz |  clickedWord: true | highlightParticularWord"></div>
+      <div *ngIf="!quizSetting?.showHints" [innerHTML]="quizQuestion?.quiz |  clickedWord: false"></div>
     </span>
 <!--    <button mat-button color="primary" [mdePopoverTriggerFor]="textTranslatePopOver" mdePopoverTriggerOn="click"-->
 <!--            [mdePopoverCloseOnClick]="false">Click Me</button>-->
     <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
-         *ngIf="quizSetting?.showGerman">{{quizQuestion?.languages?.german?.question}}</div>
+         *ngIf="quizSetting?.showGerman">
+      <hr><b>German:</b> {{quizQuestion?.languages?.german?.question}}</div>
     <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
-         *ngIf="quizSetting?.showEnglish">{{quizQuestion?.languages?.english?.question}}</div>
+         *ngIf="quizSetting?.showEnglish"><hr><b>English:</b> {{quizQuestion?.languages?.english?.question}}</div>
     <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
-         *ngIf="quizSetting?.showPunjabi">{{quizQuestion?.languages?.punjabi?.question}}</div>
+         *ngIf="quizSetting?.showPunjabi"><hr><b>Punjabi:</b> {{quizQuestion?.languages?.punjabi?.question}}</div>
     <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
-         *ngIf="quizSetting?.showFrance">{{quizQuestion?.languages?.france?.question}}</div>
+         *ngIf="quizSetting?.showFrance"><hr><b>France:</b> {{quizQuestion?.languages?.france?.question}}</div>
 
   </div>
   <div class="col-xl-2 col-lg-2 col-md-2 col-md-2 col-sm-12 border d-flex justify-content-center align-items-center">
@@ -45,12 +47,3 @@
   </div>
 </div>
 
-<mde-popover #textTranslatePopOver="mdePopover">
-  <div class="row">
-    <div class="col-12">
-      <div class="bg-light">
-        log hello: {{clickedWord}}
-      </div>
-    </div>
-  </div>
-</mde-popover>

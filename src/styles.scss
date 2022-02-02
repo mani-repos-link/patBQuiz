@@ -36,3 +36,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+.quiz-question-word {
+  //font-weight: unset;
+  &:hover {
+    cursor: pointer;
+    font-weight: bold;
+  }
+}

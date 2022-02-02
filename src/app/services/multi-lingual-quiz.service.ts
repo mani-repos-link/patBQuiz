@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {BehaviorSubject, debounceTime, delay, from, Observable, Subject} from "rxjs";
+import {BehaviorSubject, debounceTime, map, Observable} from "rxjs";
 import {NgxSpinnerService} from "ngx-spinner";
 import {TrickWordsListService} from "./trick-words-list.service";
 import {InitSpinnerService} from "./init-spinner/init-spinner.service";
@@ -48,6 +48,15 @@ export class QuizArgument {
   totalFalso: number = 0;
 }
 
+export class QuizDictionaryMeanings {
+  occurrence?: number;
+  punjabi?: string;
+  english?: string;
+  german?: string;
+  france?: string;
+  italiano?: string;
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -59,6 +68,8 @@ export class MultiLingualQuizService {
     = new BehaviorSubject<boolean>(false);
   // @ts-ignore
   private quizDataSubject: BehaviorSubject<QuizData> = new BehaviorSubject<QuizData>(null);
+
+  private quizDictionary!: Map<string, QuizDictionaryMeanings>;
 
   constructor(
     private http: HttpClient,
@@ -79,7 +90,11 @@ export class MultiLingualQuizService {
         this.initSpinnerSvc.hideSpinner();
       });
     });
-    return Promise.allSettled([promiseInit]);
+    return Promise.allSettled([promiseInit, this.initQuizDictionary()]);
+  }
+
+  public getQuizDictionary(): Map<string, QuizDictionaryMeanings> {
+    return this.quizDictionary;
   }
 
   private initQuizData() {
@@ -92,6 +107,16 @@ export class MultiLingualQuizService {
         this.quizDataSubject.next(this.quizData);
       }
     );
+  }
+
+  private initQuizDictionary() {
+    return new Promise((resolve, reject) => {
+      this.initSpinnerSvc.showSpinner('Loading dictionary...');
+      this.getQuizQuestionsWordsQuiz().subscribe((e: Map<string, QuizDictionaryMeanings>) => {
+        this.quizDictionary = e;
+        resolve(true);
+      });
+    });
   }
 
   private mapQuizInArguments(quiz_data: QuizQuestion[]) {
@@ -177,8 +202,19 @@ export class MultiLingualQuizService {
     return this.http.get(this._quizDataURL);
   }
 
-  public getQuizQuestionsWordsQuiz(): Observable<any> {
-    return this.http.get(this._quizWordURL);
+  public getQuizQuestionsWordsQuiz(): Observable<Map<string, QuizDictionaryMeanings>> {
+    return this.http.get<Map<string, QuizDictionaryMeanings>>(this._quizWordURL).pipe(
+      map((d: any) => {
+        const m = new Map<string, QuizDictionaryMeanings>();
+        const keys = Object.keys(d);
+        keys.forEach((key: string) => {
+          if (key && key.length > 2) {
+            m.set(key.toLowerCase(), d[key]);
+          }
+        })
+        return m;
+      })
+    );
   }
 
   public getQuizQuestion(): Observable<QuizQuestion[]> {

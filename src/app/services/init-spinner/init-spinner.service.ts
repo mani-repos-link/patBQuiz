@@ -21,7 +21,7 @@ export class InitSpinnerService {
     this.spinnerContainerDOM.classList.add('app-init-spinner-container');
 
     this.spinnerTextDOM = this.render.createElement('div');
-    this.spinnerTextDOM.style = 'font-size:1.8rem; margin-top:6px;color:#ccc;';
+    this.spinnerTextDOM.style = 'font-size:1.2rem; margin-top:6px;color:#ccc;';
     this.spinnerTextDOM.innerText = 'Loading...';
 
     this.spinnerDOM = this.render.createElement('div');
@@ -78,7 +78,7 @@ export class InitSpinnerService {
     return (
       '.app-init-spinner{' +
       'pointer-events:none;' +
-      'width:6rem;height:6rem;' +
+      'width:4rem;height:4rem;' +
       'border:0.4em solid #cfcfcf;' +
       'border-top-color: #007be4;' +
       'border-radius:50%;' +
