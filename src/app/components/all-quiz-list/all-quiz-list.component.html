@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container all-quiz-container" #allQuizContainer>
   <div class="row">
     <div class="col">
       <h2>All Quiz</h2>
@@ -14,10 +14,17 @@
     </div>
   </div>
   <br>
-  <div class="row" *ngFor="let qq of quizViewList; let i = index">
-    <div class="col">
-      <app-quiz-view [quizQuestion]="qq" [listIndex]="i"></app-quiz-view>
-<!--      {{qq.quiz}}-->
+<!--  <div class="row" *ngFor="let qq of quizViewList; let i = index">-->
+<!--    <div class="col">-->
+<!--      <app-quiz-view [quizQuestion]="qq" [listIndex]="i"></app-quiz-view>-->
+<!--&lt;!&ndash;      {{qq.quiz}}&ndash;&gt;-->
+<!--    </div>-->
+<!--  </div>-->
+
+
+  <cdk-virtual-scroll-viewport itemSize="90" #cdkVirtualScrollViewport [style]="{height: quizContainerHeight + 'px'}">
+    <div *cdkVirtualFor="let item of quizViewList; templateCacheSize: 50;let i = index;" class="example-item">
+      <app-quiz-view [quizQuestion]="item" [listIndex]="i"></app-quiz-view>
     </div>
-  </div>
+  </cdk-virtual-scroll-viewport>
 </div>

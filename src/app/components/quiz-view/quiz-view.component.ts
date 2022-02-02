@@ -18,6 +18,7 @@ export class QuizViewComponent implements OnInit, OnDestroy {
   isQuizCorrect: boolean | undefined;
   currentAnswered: boolean | undefined;
   private subscription: Subscription = new Subscription();
+  clickedWord: string  | undefined;
 
   constructor(
     public dialog: MatDialog,
@@ -48,8 +49,10 @@ export class QuizViewComponent implements OnInit, OnDestroy {
   }
 
   onWordClick(word: string) {
+    this.clickedWord = word;
     console.log(word);
   }
+
   private addEventListenerToWords() {
     const cls = document.getElementsByClassName('quiz-question-word');
     if (cls && cls.length > 0) {
