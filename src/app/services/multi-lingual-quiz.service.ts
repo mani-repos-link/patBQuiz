@@ -3,6 +3,7 @@ import {HttpClient} from "@angular/common/http";
 import {BehaviorSubject, debounceTime, delay, from, Observable, Subject} from "rxjs";
 import {NgxSpinnerService} from "ngx-spinner";
 import {TrickWordsListService} from "./trick-words-list.service";
+import {InitSpinnerService} from "./init-spinner/init-spinner.service";
 
 export class QuizQuestion {
   image: string | undefined;
@@ -10,9 +11,21 @@ export class QuizQuestion {
   ans: boolean | undefined;
   argument: string | undefined;
   img_name: string | undefined;
-  lang_punj: string | undefined;
   selected?: any;
   isRight?: any;
+  languages?: {
+    punjabi: QuizLanguageInterface;
+    english: QuizLanguageInterface;
+    german: QuizLanguageInterface;
+    france: QuizLanguageInterface;
+  };
+}
+
+export class QuizLanguageInterface {
+  question?: string;
+  verified?: boolean;
+  verifiedDate: Date | undefined;
+  addedData?: Date;
 }
 
 export class QuizData {
@@ -40,7 +53,8 @@ export class QuizArgument {
 })
 export class MultiLingualQuizService {
   public quizData: QuizData = new QuizData();
-  private _jsonURL = 'assets/rev-quiz-multi.json';
+  private _quizDataURL = 'assets/rev-quiz-multi.json';
+  private _quizWordURL = 'assets/quiz-words.json';
   private appInit$: BehaviorSubject<boolean>
     = new BehaviorSubject<boolean>(false);
   // @ts-ignore
@@ -49,21 +63,23 @@ export class MultiLingualQuizService {
   constructor(
     private http: HttpClient,
     private twlSvc: TrickWordsListService,
+    private initSpinnerSvc: InitSpinnerService,
     private spinSvc: NgxSpinnerService
   ) { }
 
   initQuizApp(): Promise<any> {
-    this.spinSvc.show('Loading app...', {showSpinner: true});
+    this.initSpinnerSvc.showSpinner('Loading app...');
     const appInit$ = this.appInit$.pipe(
-      delay(2000),
-      debounceTime(3000)
+      debounceTime(500)
     );
     this.initQuizData();
-    appInit$.subscribe((r: boolean) => {
-      console.log(r);
-      this.spinSvc.hide('', 500);
+    const promiseInit = new Promise((resolve, reject) => {
+      appInit$.subscribe((r: boolean) => {
+        resolve(r);
+        this.initSpinnerSvc.hideSpinner();
+      });
     });
-    return Promise.allSettled([appInit$]);
+    return Promise.allSettled([promiseInit]);
   }
 
   private initQuizData() {
@@ -158,7 +174,11 @@ export class MultiLingualQuizService {
   }
 
   public getMultiLingualQuiz(): Observable<any> {
-    return this.http.get(this._jsonURL);
+    return this.http.get(this._quizDataURL);
+  }
+
+  public getQuizQuestionsWordsQuiz(): Observable<any> {
+    return this.http.get(this._quizWordURL);
   }
 
   public getQuizQuestion(): Observable<QuizQuestion[]> {

@@ -3,12 +3,22 @@
   <div class="col-xl-1 col-lg-2 col-md-2 col-sm-12 border text-center" (click)="openImageViewDialog()" *ngIf="quizQuestion?.image">
     <img [src]="'/assets/sign-images/' + quizQuestion?.img_name" class="sign-image" [alt]="quizQuestion?.img_name">
   </div>
-  <div class="col border py-1" [style]="{'font-size': quizSetting?.quizQuestionFontSize + 'px'}">
-    <span [style]="{'font-weight': quizSetting?.boldText?'600': '400'}">
-      <div *ngIf="quizSetting?.showHints" [innerHTML]="quizQuestion?.quiz | highlightParticularWord"></div>
-      <div *ngIf="!quizSetting?.showHints" [innerHTML]="quizQuestion?.quiz"></div>
+  <div class="col border py-1">
+
+    <span [style]="{'font-weight': quizSetting?.boldText?'600': '400', 'font-size': quizSetting?.quizQuestionFontSize + 'px'}">
+      <div *ngIf="quizSetting?.showHints" [innerHTML]="quizQuestion.quiz | clickedWord : onWordClick | highlightParticularWord"></div>
+      <div *ngIf="!quizSetting?.showHints" [innerHTML]="quizQuestion?.quiz | clickedWord : onWordClick"></div>
     </span>
-    <div *ngIf="quizSetting?.showPunjabi">{{quizQuestion?.lang_punj}}</div>
+<!--    <button mat-button color="primary" [mdePopoverTriggerFor]="textTranslatePopOver" mdePopoverTriggerOn="click"-->
+<!--            [mdePopoverCloseOnClick]="false">Click Me</button>-->
+    <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
+         *ngIf="quizSetting?.showGerman">{{quizQuestion?.languages?.german?.question}}</div>
+    <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
+         *ngIf="quizSetting?.showEnglish">{{quizQuestion?.languages?.english?.question}}</div>
+    <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
+         *ngIf="quizSetting?.showPunjabi">{{quizQuestion?.languages?.punjabi?.question}}</div>
+    <div [style]="{'font-size': (quizSetting.quizQuestionFontSize - 2) + 'px'}"
+         *ngIf="quizSetting?.showFrance">{{quizQuestion?.languages?.france?.question}}</div>
 
   </div>
   <div class="col-xl-2 col-lg-2 col-md-2 col-md-2 col-sm-12 border d-flex justify-content-center align-items-center">
@@ -34,3 +44,13 @@
     </div>
   </div>
 </div>
+
+<mde-popover #textTranslatePopOver="mdePopover">
+  <div class="row">
+    <div class="col-12">
+      <div class="bg-light">
+        log hello
+      </div>
+    </div>
+  </div>
+</mde-popover>

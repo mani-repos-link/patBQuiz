@@ -3,6 +3,9 @@ import {BehaviorSubject} from "rxjs";
 
 export class QuizSetting {
   showPunjabi: boolean = false;
+  showEnglish: boolean = false;
+  showGerman: boolean = false;
+  showFrance: boolean = false;
   revealAnswers: boolean = false;
   showHints: boolean = false;
   isEnabledStickyIntervalOption: boolean = false;

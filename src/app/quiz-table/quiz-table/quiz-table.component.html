@@ -16,7 +16,7 @@
           <div class="col">
             <span *ngIf="showHint" [innerHTML]="quizObj.quiz | highlightParticularWord"></span> <br>
             <span *ngIf="!showHint" [innerHTML]="quizObj.quiz"></span> <br>
-            <span *ngIf="showPunjabi">{{quizObj.lang_punj}}</span>
+            <span *ngIf="showPunjabi">{{quizObj?.languages?.punjabi?.question}}</span>
           </div>
         </div>
       </td>

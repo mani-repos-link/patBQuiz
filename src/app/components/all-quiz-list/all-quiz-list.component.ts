@@ -26,6 +26,8 @@ export class AllQuizListComponent implements OnInit {
 
   private fetchQuizData() {
     this.quizSvc.getQuizData().subscribe((qd) => {
+
+      this.intervalRange = { start: 0, end: qd.quizzes.getValue().length, currentQuestion: 0, };
       this.quizData = qd;
       this.listenToQuizData();
       this.loadQuizQuestions();

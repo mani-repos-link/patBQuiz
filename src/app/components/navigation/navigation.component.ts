@@ -6,6 +6,7 @@ import {MultiLingualQuizService, QuizArgument} from "../../services/multi-lingua
 import {MatSnackBar} from "@angular/material/snack-bar";
 import {NgxSpinnerService} from "ngx-spinner";
 import {QuizSetting, SettingsService} from "../../services/setting/settings.service";
+import {InitSpinnerService} from "../../services/init-spinner/init-spinner.service";
 
 @Component({
   selector: 'app-navigation',
@@ -26,6 +27,7 @@ export class NavigationComponent implements OnInit, AfterViewInit {
     private quizSvc: MultiLingualQuizService,
     private _snackBar: MatSnackBar,
     private settingSvc: SettingsService,
+    private initSpinnerService: InitSpinnerService,
     private observer: BreakpointObserver,
     private spinner: NgxSpinnerService
   ) { }
@@ -66,7 +68,6 @@ export class NavigationComponent implements OnInit, AfterViewInit {
       .observe(['(max-width: 800px)'])
       .pipe(delay(1))
       .subscribe((res) => {
-        console.log(res.matches)
         if (res.matches) {
           this.sidenav.mode = 'push';
           this.sidenav.close();

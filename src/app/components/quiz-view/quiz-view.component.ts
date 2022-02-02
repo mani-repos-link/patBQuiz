@@ -13,7 +13,7 @@ import {ImageViewModalComponent} from "./image-view-modal/image-view-modal.compo
 export class QuizViewComponent implements OnInit, OnDestroy {
 
   @Input() listIndex: number | undefined;
-  @Input() quizQuestion: QuizQuestion | undefined;
+  @Input() quizQuestion!: QuizQuestion;
   quizSetting!: QuizSetting;
   isQuizCorrect: boolean | undefined;
   currentAnswered: boolean | undefined;
@@ -26,6 +26,7 @@ export class QuizViewComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.listenSetting$();
+    this.addEventListenerToWords();
   }
 
   private listenSetting$() {
@@ -44,6 +45,27 @@ export class QuizViewComponent implements OnInit, OnDestroy {
   checkAnswer(ans: boolean): void {
     this.currentAnswered = ans;
     this.isQuizCorrect = this.quizQuestion?.ans == ans;
+  }
+
+  onWordClick(word: string) {
+    console.log(word);
+  }
+  private addEventListenerToWords() {
+    const cls = document.getElementsByClassName('quiz-question-word');
+    // console.log(cls.length);
+    // if (cls && cls.length > 0) {
+    //   for (let i = 0; i < cls.length; i++) {
+    //     cls[i].addEventListener('click', (e: Event) => {
+    //       if (e.target && e.target.eventListeners) {
+    //         console.log(e.target.eventListeners());
+    //       }
+    //       e.stopPropagation();
+    //       e.preventDefault();
+    //       // this.onWordClick(e);
+    //     }, true);
+    //     console.log(cls[i])
+    //   }
+    // }
   }
 
   ngOnDestroy() {

@@ -30,6 +30,9 @@ import {MatDialogModule} from "@angular/material/dialog";
 import {MatSliderModule} from "@angular/material/slider";
 import {MatExpansionModule} from "@angular/material/expansion";
 import { QuizByArgumentsComponent } from './components/quiz-by-arguments/quiz-by-arguments.component';
+import {MdePopoverModule} from "@material-extended/mde";
+import {MatCardModule} from "@angular/material/card";
+import { ClickedWordPipe } from './pipes/clicked-word.pipe';
 
 export function initializeApp(appInitSvc: MultiLingualQuizService) {
   return () => appInitSvc.initQuizApp();
@@ -47,29 +50,32 @@ export function initializeApp(appInitSvc: MultiLingualQuizService) {
     AllQuizListComponent,
     QuizViewComponent,
     ImageViewModalComponent,
-    QuizByArgumentsComponent
+    QuizByArgumentsComponent,
+    ClickedWordPipe
   ],
-    imports: [
-        BrowserModule,
-        BrowserAnimationsModule,
-        HttpClientModule,
-        MatSnackBarModule,
-        MatToolbarModule,
-        MatButtonModule,
-        MatIconModule,
-        MatMenuModule,
-        MatTooltipModule,
-        ScrollingModule,
-        MatDialogModule,
-        NgxSpinnerModule,
-        AppRoutingModule,
-        MatSidenavModule,
-        MatDividerModule,
-        MatSlideToggleModule,
-        FormsModule,
-        MatSliderModule,
-        MatExpansionModule
-    ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    MdePopoverModule,
+    HttpClientModule,
+    MatSnackBarModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    MatMenuModule,
+    MatTooltipModule,
+    ScrollingModule,
+    MatDialogModule,
+    NgxSpinnerModule,
+    AppRoutingModule,
+    MatSidenavModule,
+    MatDividerModule,
+    MatSlideToggleModule,
+    FormsModule,
+    MatSliderModule,
+    MatExpansionModule,
+    MatCardModule
+  ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [{
     provide: APP_INITIALIZER,

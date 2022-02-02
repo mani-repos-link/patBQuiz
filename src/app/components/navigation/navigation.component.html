@@ -22,7 +22,6 @@
       <mat-icon>keyboard_arrow_down</mat-icon>
     </button>
     <ng-container *ngIf="menuQuizByArgsOpen">
-      
       <button [routerLink]="['quiz-by-arg', arg.key]"
               style="max-width: 156px"
               class="ms-2 btn btn-light menu-button my-1 text-start"
@@ -37,7 +36,10 @@
     <div class="d-flex flex-column">
       <mat-slide-toggle class="mb-1" *ngIf="quizSetting?.isEnabledStickyIntervalOption"
                         [(ngModel)]="quizSetting.stickIntervalOnScroll">Stick Intervals on top</mat-slide-toggle>
-      <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.showPunjabi">Show punjabi</mat-slide-toggle>
+      <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.showEnglish">Show English</mat-slide-toggle>
+      <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.showGerman">Show German</mat-slide-toggle>
+      <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.showPunjabi">Show Punjabi</mat-slide-toggle>
+      <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.showFrance">Show France</mat-slide-toggle>
       <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.revealAnswers">Reveal answer</mat-slide-toggle>
       <mat-slide-toggle class="mb-1" [(ngModel)]="quizSetting.showHints">Show hints</mat-slide-toggle>
 
