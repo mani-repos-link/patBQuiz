@@ -32,11 +32,43 @@ import {MatExpansionModule} from "@angular/material/expansion";
 import { QuizByArgumentsComponent } from './components/quiz-by-arguments/quiz-by-arguments.component';
 import {MatCardModule} from "@angular/material/card";
 import {ClickedWordPipe} from "./pipes/clicked-word.pipe";
+import { UserConsentModalComponent } from './components/user-consent-modal/user-consent-modal.component';
+import {NgcCookieConsentConfig, NgcCookieConsentModule} from 'ngx-cookieconsent';
+
 
 export function initializeApp(appInitSvc: MultiLingualQuizService) {
   return () => appInitSvc.initQuizApp();
 
 }
+
+const cookieConfig: NgcCookieConsentConfig = {
+    "cookie": {
+      "domain": "https://pat-bq-uiz.vercel.app/"
+    },
+    "position": "bottom-right",
+    "theme": "classic",
+    "palette": {
+      "popup": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "link": "#ffffff"
+      },
+      "button": {
+        "background": "#f1d600",
+        "text": "#000000",
+        "border": "transparent"
+      }
+    },
+    "type": "info",
+    "content": {
+      "message": "This website uses cookies to ensure you get the best experience on our website.",
+      "dismiss": "Got it!",
+      "deny": "Refuse cookies",
+      "link": "Learn more",
+      "href": "https://www.cookiepolicygenerator.com/live.php?token=7HqoTLqtHR6SIih74Tl6fPzwMk9TbncJ",
+      "policy": "Cookie Policy"
+    }
+  };
 
 @NgModule({
   declarations: [
@@ -50,13 +82,15 @@ export function initializeApp(appInitSvc: MultiLingualQuizService) {
     QuizViewComponent,
     ImageViewModalComponent,
     QuizByArgumentsComponent,
-    ClickedWordPipe
+    ClickedWordPipe,
+    UserConsentModalComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
     MatSnackBarModule,
+    NgcCookieConsentModule.forRoot(cookieConfig),
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,

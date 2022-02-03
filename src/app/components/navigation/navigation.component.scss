@@ -14,6 +14,8 @@
 .mat-sidenav-container {
   box-sizing: border-box;
   height: var(--body-container-height);
+  &.mat-drawer-content,
+  .mat-drawer-content { overflow: inherit; }
   .mat-sidenav {
     box-sizing: border-box;
     margin: var(--panel-margin) ;

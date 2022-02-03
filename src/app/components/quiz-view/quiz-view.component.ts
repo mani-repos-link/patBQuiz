@@ -68,7 +68,9 @@ export class QuizViewComponent implements OnInit, OnDestroy {
         placement: 'top'
       });
       this.currentPopOver.push(popover);
-      const m = this.quizDictionary.get(w) || this.quizDictionary.get(w.toLowerCase()) ;
+      const m = this.quizDictionary.get(w) ||
+        this.quizDictionary.get(w.toLowerCase()) ||
+        this.quizDictionary.get(w.toLowerCase().replace('.', '').toLowerCase());
       if (m) {
         let content = '<b>Word "' + w + '" occurs ' + m.occurrence + ' times.</b>';
         content += '<br> Translation: ';
@@ -76,12 +78,10 @@ export class QuizViewComponent implements OnInit, OnDestroy {
         content += '<br> German: ' + m.german;
         content += '<br> France: ' + m.france;
         content += '<br> Punjabi: ' + m.punjabi;
-        content += '<br><button class="btn btn-secondary my-2 float-end"' +
-          ' onclick="$(&quot;#' + dom.getAttribute('id') + '&quot;).popover(&quot;hide&quot;)">Close</button>' ;
+        content += '<br><button class="btn btn-secondary my-2 float-end">Close</button>' ;
         popover._config.content = content;
         popover._config.sanitizeFn = null;
         popover._config.allowList['button'] = ['*', 'class', 'onclick'];
-        console.log(popover._config)
       }
     }
     if (this.quizSetting.showTranslatedWords) {

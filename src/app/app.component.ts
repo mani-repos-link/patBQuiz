@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {MultiLingualQuizService, QuizArgument} from "./services/multi-lingual-quiz.service";
 import {MatSnackBar} from "@angular/material/snack-bar";
 import {NgxSpinnerService} from "ngx-spinner";
+import {NgcCookieConsentService} from "ngx-cookieconsent";
 
 @Component({
   selector: 'app-root',
@@ -10,13 +11,11 @@ import {NgxSpinnerService} from "ngx-spinner";
 })
 export class AppComponent implements OnInit {
   title = 'quizPatenteClient';
-  quizListType = 'All';
-  showPunjabiTranslation = true;
-  revealAnswer = false;
   argumentsList: QuizArgument[] = [];
   showHint: boolean = true;
 
   constructor(
+    private ccService: NgcCookieConsentService,
     private quizSvc: MultiLingualQuizService,
     private _snackBar: MatSnackBar,
     private spinner: NgxSpinnerService
@@ -24,6 +23,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     // this.spinner.show();
+    this.loadConsent();
     this.quizSvc.getArgumentsList().subscribe(
       (s: Map<string, QuizArgument>) => {
         const l = Array.from(s.values());
@@ -32,19 +32,16 @@ export class AppComponent implements OnInit {
     });
   }
 
-  showPunjabi() {
-    this.showPunjabiTranslation = !this.showPunjabiTranslation;
-  }
-  revealAllAnswer() {
-    this.revealAnswer = !this.revealAnswer;
-  }
-  showHintM() {
-    this.showHint = !this.showHint;
-    if (this.showHint == false) {
-      this._snackBar.open('Green: Always Vero!, -=- Red: Always Falso!', '',{duration: 5000});
+  private loadConsent() {
+    const isConsentAlready = localStorage.getItem('cookie-consent');
+    console.log(isConsentAlready)
+    if (isConsentAlready == undefined) {
+      // this.ccService.open();
+      localStorage.setItem('cookie-consent', JSON.stringify(true));
+    } else {
+      console.log('closing')
+      this.ccService.close(false);
     }
-  }
-  quizTypeChange(arg: QuizArgument | 'All') {
-    this.quizListType = arg == 'All' ? arg : arg.argName;
+
   }
 }
