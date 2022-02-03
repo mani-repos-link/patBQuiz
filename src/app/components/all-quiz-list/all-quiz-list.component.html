@@ -25,6 +25,20 @@
   <cdk-virtual-scroll-viewport itemSize="90" #cdkVirtualScrollViewport [style]="{height: quizContainerHeight + 'px'}">
     <div *cdkVirtualFor="let item of quizViewList; templateCacheSize: 0;let i = index;" class="example-item ">
       <app-quiz-view [quizQuestion]="item" [listIndex]="i+1"></app-quiz-view>
+      <amp-ad *ngIf="i%15" width="100%" height="150"
+              type="adsense"
+              data-ad-client="ca-pub-3286506071954540"
+              data-ad-slot="9513112105"
+              data-auto-format="rspv"
+              data-full-width="">
+        <div overflow=""></div>
+      </amp-ad>
+      <ins class="adsbygoogle" *ngIf="i%12"
+           style="display:block"
+           data-ad-format="fluid"
+           data-ad-layout-key="-gb-1p-7z-ok+2b0"
+           data-ad-client="ca-pub-3286506071954540"
+           data-ad-slot="1337101000"></ins>
     </div>
   </cdk-virtual-scroll-viewport>
 </div>
