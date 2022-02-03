@@ -1,5 +1,5 @@
 
-<div class="row border my-2">
+<div class="row border my-2 mx-auto">
   <div class="col-sm-1 text-center pt-1" *ngIf="listIndex != null"> {{listIndex}} </div>
   <div class="col-xl-1 col-lg-2 col-md-2 col-sm-12 border text-center" (click)="openImageViewDialog()" *ngIf="quizQuestion?.image">
     <img [src]="'/assets/sign-images/' + quizQuestion?.img_name" class="sign-image" [alt]="quizQuestion?.img_name">
